@@ -1,0 +1,246 @@
+{
+  "minApp": 1,
+  "version": 1,
+  "lessons": [
+    {
+      "left": null,
+      "subtitle": "Tus primeras 3 notas",
+      "language": "es",
+      "id": "l01_do_re_mi",
+      "right": "{bpm=70} C4:1/4@1 D4:1/4@2 E4:1/4@3 E4:1/4@3 D4:1/4@2 C4:1/2@1 C4:1/4 D4:1/4 E4:1/4 C4:1/4 E4:1/4 D4:1/4 C4:1/2",
+      "title": "Do, Re, Mi",
+      "group": "Primeros pasos",
+      "requires": null
+    },
+    {
+      "left": null,
+      "subtitle": "Tres notas más",
+      "language": "es",
+      "id": "l02_mi_fa_sol",
+      "right": "{bpm=70} E4:1/4@3 F4:1/4@4 G4:1/4@5 G4:1/4@5 F4:1/4@4 E4:1/2@3 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2",
+      "title": "Mi, Fa, Sol",
+      "group": "Primeros pasos",
+      "requires": "l01_do_re_mi"
+    },
+    {
+      "left": null,
+      "subtitle": "Un dedo para cada nota: Do Re Mi Fa Sol",
+      "language": "es",
+      "id": "l05_cinco_notas",
+      "right": "{bpm=70} C4:1/4@1 D4:1/4@2 E4:1/4@3 F4:1/4@4 G4:1/2@5 G4:1/4@5 F4:1/4@4 E4:1/4@3 D4:1/4@2 C4:1/2@1",
+      "title": "Cinco notas",
+      "group": "Primeros pasos",
+      "requires": "l02_mi_fa_sol"
+    },
+    {
+      "left": null,
+      "subtitle": "Notas de un tiempo y de dos tiempos",
+      "language": "es",
+      "id": "l06_largas_y_cortas",
+      "right": "{bpm=70} C4:1/4@1 C4:1/4 D4:1/2@2 E4:1/4@3 E4:1/4 F4:1/2@4 G4:1/4@5 G4:1/4 E4:1/4@3 C4:1/4@1 D4:1/2@2 C4:1@1",
+      "title": "Largas y cortas",
+      "group": "Primeros pasos",
+      "requires": "l05_cinco_notas"
+    },
+    {
+      "left": null,
+      "subtitle": "Del Do al Do pasando el pulgar",
+      "language": "es",
+      "id": "l07_escala_de_do",
+      "right": "{bpm=60} C4:1/4@1 D4:1/4@2 E4:1/4@3 F4:1/4@1 G4:1/4@2 A4:1/4@3 B4:1/4@4 C5:1/2@5 C5:1/4@5 B4:1/4@4 A4:1/4@3 G4:1/4@2 F4:1/4@1 E4:1/4@3 D4:1/4@2 C4:1/2@1",
+      "title": "La escala de Do",
+      "group": "Primeros pasos",
+      "requires": "l06_largas_y_cortas"
+    },
+    {
+      "left": null,
+      "subtitle": "Canción infantil tradicional · versión completa",
+      "language": "es",
+      "id": "s03_estrellita",
+      "right": "{bpm=80} C4:1/4 C4:1/4 G4:1/4 G4:1/4 A4:1/4 A4:1/4 G4:1/2 F4:1/4 F4:1/4 E4:1/4 E4:1/4 D4:1/4 D4:1/4 C4:1/2 G4:1/4 G4:1/4 F4:1/4 F4:1/4 E4:1/4 E4:1/4 D4:1/2 G4:1/4 G4:1/4 F4:1/4 F4:1/4 E4:1/4 E4:1/4 D4:1/2 C4:1/4 C4:1/4 G4:1/4 G4:1/4 A4:1/4 A4:1/4 G4:1/2 F4:1/4 F4:1/4 E4:1/4 E4:1/4 D4:1/4 D4:1/4 C4:1/2",
+      "title": "Estrellita, ¿dónde estás?",
+      "group": "Canciones infantiles",
+      "requires": "l05_cinco_notas"
+    },
+    {
+      "left": null,
+      "subtitle": "Canción infantil tradicional · versión sencilla",
+      "language": "es",
+      "id": "s15_pollitos",
+      "right": "{bpm=90} D4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2 G4:1/2 A4:1/4 A4:1/4 A4:1/4 A4:1/4 G4:1/2 G4:1/2 F4:1/4 F4:1/4 F4:1/4 F4:1/4 E4:1/2 E4:1/2 D4:1/4 D4:1/4 D4:1/4 D4:1/4 C4:1/2 C4:1/2",
+      "title": "Los pollitos dicen",
+      "group": "Canciones infantiles",
+      "requires": "l05_cinco_notas"
+    },
+    {
+      "left": null,
+      "subtitle": "Frère Jacques, canon tradicional (francés) · completo",
+      "language": "fr",
+      "id": "s02_frere_jacques",
+      "right": "{bpm=90} C4:1/4 D4:1/4 E4:1/4 C4:1/4 C4:1/4 D4:1/4 E4:1/4 C4:1/4 E4:1/4 F4:1/4 G4:1/2 E4:1/4 F4:1/4 G4:1/2 G4:1/8 A4:1/8 G4:1/8 F4:1/8 E4:1/4 C4:1/4 G4:1/8 A4:1/8 G4:1/8 F4:1/8 E4:1/4 C4:1/4 C4:1/4 G3:1/4 C4:1/2 C4:1/4 G3:1/4 C4:1/2",
+      "title": "Los colores (Fray Santiago)",
+      "group": "Canciones infantiles",
+      "requires": "l02_mi_fa_sol"
+    },
+    {
+      "left": null,
+      "subtitle": "Canción infantil tradicional (inglés)",
+      "language": "en",
+      "id": "s01_mary",
+      "right": "{bpm=80} E4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/4 E4:1/4 E4:1/2 D4:1/4 D4:1/4 D4:1/2 E4:1/4 G4:1/4 G4:1/2 E4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/4 E4:1/4 E4:1/4 E4:1/4 D4:1/4 D4:1/4 E4:1/4 D4:1/4 C4:1",
+      "title": "Mary Had a Little Lamb",
+      "group": "Canciones infantiles",
+      "requires": "l02_mi_fa_sol"
+    },
+    {
+      "left": null,
+      "subtitle": "Canción infantil tradicional (inglés) · solo Do Re Mi",
+      "language": "en",
+      "id": "s06_hot_cross_buns",
+      "right": "{bpm=80} E4:1/4 D4:1/4 C4:1/2 E4:1/4 D4:1/4 C4:1/2 C4:1/8 C4:1/8 C4:1/8 C4:1/8 D4:1/8 D4:1/8 D4:1/8 D4:1/8 E4:1/4 D4:1/4 C4:1/2",
+      "title": "Hot Cross Buns",
+      "group": "Canciones infantiles",
+      "requires": "l01_do_re_mi"
+    },
+    {
+      "left": null,
+      "subtitle": "Canción tradicional (francés)",
+      "language": "fr",
+      "id": "s07_au_clair",
+      "right": "{bpm=80} C4:1/4 C4:1/4 C4:1/4 D4:1/4 E4:1/2 D4:1/2 C4:1/4 E4:1/4 D4:1/4 D4:1/4 C4:1",
+      "title": "Au clair de la lune",
+      "group": "Canciones infantiles",
+      "requires": "l01_do_re_mi"
+    },
+    {
+      "left": null,
+      "subtitle": "Canción infantil tradicional (alemán)",
+      "language": "de",
+      "id": "s08_alle_meine_entchen",
+      "right": "{bpm=90} C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2 G4:1/2 A4:1/4 A4:1/4 A4:1/4 A4:1/4 G4:1 A4:1/4 A4:1/4 A4:1/4 A4:1/4 G4:1 F4:1/4 F4:1/4 F4:1/4 F4:1/4 E4:1/2 E4:1/2 D4:1/4 D4:1/4 D4:1/4 D4:1/4 C4:1",
+      "title": "Alle meine Entchen",
+      "group": "Canciones infantiles",
+      "requires": "l05_cinco_notas"
+    },
+    {
+      "left": null,
+      "subtitle": "En la granja de Pepito (inglés)",
+      "language": "en",
+      "id": "s10_old_macdonald",
+      "right": "{bpm=90} C4:1/4 C4:1/4 C4:1/4 G4:1/4 A4:1/4 A4:1/4 G4:1/2 E4:1/4 E4:1/4 D4:1/4 D4:1/4 C4:1",
+      "title": "Old MacDonald Had a Farm",
+      "group": "Canciones infantiles",
+      "requires": "l05_cinco_notas"
+    },
+    {
+      "left": null,
+      "subtitle": "Beethoven (alemán, dominio público)",
+      "language": "de",
+      "id": "s04_oda_alegria",
+      "right": "{bpm=90} E4:1/4@3 E4:1/4 F4:1/4@4 G4:1/4@5 G4:1/4 F4:1/4 E4:1/4@3 D4:1/4@2 C4:1/4@1 C4:1/4 D4:1/4@2 E4:1/4@3 E4:3/8 D4:1/8 D4:1/2",
+      "title": "Himno de la alegría",
+      "group": "Canciones de siempre",
+      "requires": "l05_cinco_notas"
+    },
+    {
+      "left": null,
+      "subtitle": "Villancico (inglés, 1857) · estribillo",
+      "language": "en",
+      "id": "s11_jingle_bells",
+      "right": "{bpm=100} E4:1/4 E4:1/4 E4:1/2 E4:1/4 E4:1/4 E4:1/2 E4:1/4 G4:1/4 C4:3/8 D4:1/8 E4:1 F4:1/4 F4:1/4 F4:3/8 F4:1/8 F4:1/4 E4:1/4 E4:1/4 E4:1/8 E4:1/8 E4:1/4 D4:1/4 D4:1/4 E4:1/4 D4:1/2 G4:1/2",
+      "title": "Jingle Bells",
+      "group": "Canciones de siempre",
+      "requires": "s04_oda_alegria"
+    },
+    {
+      "left": null,
+      "subtitle": "Melodía tradicional (3 tiempos): sube hasta el Sol agudo",
+      "language": "es",
+      "id": "s12_cumpleanos",
+      "right": "{bpm=100} G4:3/16 G4:1/16 A4:1/4 G4:1/4 C5:1/4 B4:1/2 G4:3/16 G4:1/16 A4:1/4 G4:1/4 D5:1/4 C5:1/2 G4:3/16 G4:1/16 G5:1/4 E5:1/4 C5:1/4 B4:1/4 A4:1/4 F5:3/16 F5:1/16 E5:1/4 C5:1/4 D5:1/4 C5:3/4",
+      "title": "Cumpleaños feliz",
+      "group": "Canciones de siempre",
+      "requires": "s11_jingle_bells"
+    },
+    {
+      "left": null,
+      "subtitle": "Beethoven, el famoso «pa-pa-pa-PAAA» (instrumental)",
+      "language": "inst",
+      "id": "s13_quinta_beethoven",
+      "right": "{bpm=100} _:1/8 G4:1/8 G4:1/8 G4:1/8 Eb4:1/2 _:1/8 F4:1/8 F4:1/8 F4:1/8 D4:1/2 _:1/8 G4:1/8 G4:1/8 G4:1/8 Eb4:1/2 _:1/8 F4:1/8 F4:1/8 F4:1/8 D4:1/2",
+      "title": "Quinta sinfonía",
+      "group": "Canciones de siempre",
+      "requires": "l07_escala_de_do"
+    },
+    {
+      "left": null,
+      "subtitle": "Beethoven · versión sencilla del tema principal (instrumental)",
+      "language": "inst",
+      "id": "s14_para_elisa",
+      "right": "{bpm=50} E5:1/16 D#5:1/16 E5:1/16 D#5:1/16 E5:1/16 B4:1/16 D5:1/16 C5:1/16 A4:1/4 _:1/16 C4:1/16 E4:1/16 A4:1/16 B4:1/4 _:1/16 E4:1/16 G#4:1/16 B4:1/16 C5:1/4 _:1/16 E5:1/16 D#5:1/16 E5:1/16 D#5:1/16 E5:1/16 B4:1/16 D5:1/16 C5:1/16 A4:1/4 _:1/16 C4:1/16 E4:1/16 A4:1/16 B4:1/4 _:1/16 E4:1/16 C5:1/16 B4:1/16 A4:1/2",
+      "title": "Para Elisa (tema)",
+      "group": "Canciones de siempre",
+      "requires": "s13_quinta_beethoven"
+    },
+    {
+      "left": "{bpm=70} C3:1/4@5 D3:1/4@4 E3:1/4@3 E3:1/4@3 D3:1/4@4 C3:1/2@5 C3:1/4 D3:1/4 E3:1/4 C3:1/4 E3:1/4 D3:1/4 C3:1/2",
+      "subtitle": "Do, Re, Mi graves en clave de fa",
+      "language": "es",
+      "id": "l03_mano_izquierda",
+      "right": null,
+      "title": "Mano izquierda",
+      "group": "Mano izquierda",
+      "requires": "l02_mi_fa_sol"
+    },
+    {
+      "left": "{bpm=70} C3:1/4@5 D3:1/4@4 E3:1/4@3 F3:1/4@2 G3:1/2@1 G3:1/4@1 F3:1/4@2 E3:1/4@3 D3:1/4@4 C3:1/2@5",
+      "subtitle": "Meñique en el Do, pulgar en el Sol",
+      "language": "es",
+      "id": "l08_izquierda_cinco",
+      "right": null,
+      "title": "Cinco notas graves",
+      "group": "Mano izquierda",
+      "requires": "l03_mano_izquierda"
+    },
+    {
+      "left": "C3:1@5 C3:1@5",
+      "subtitle": "Toca con las dos manos a la vez",
+      "language": "es",
+      "id": "l04_dos_manos",
+      "right": "{bpm=60} E4:1/2@3 D4:1/2@2 C4:1@1",
+      "title": "Las dos manos",
+      "group": "Las dos manos",
+      "requires": "l03_mano_izquierda"
+    },
+    {
+      "left": "C3:1/4@5 D3:1/4@4 E3:1/4@3 F3:1/4@2 G3:1/2@1 F3:1/4@2 E3:1/4@3 D3:1/4@4 C3:1/2@5",
+      "subtitle": "Las dos manos suben y bajan juntas",
+      "language": "es",
+      "id": "l09_manos_en_paralelo",
+      "right": "{bpm=60} C4:1/4@1 D4:1/4@2 E4:1/4@3 F4:1/4@4 G4:1/2@5 F4:1/4@4 E4:1/4@3 D4:1/4@2 C4:1/2@1",
+      "title": "Manos en paralelo",
+      "group": "Las dos manos",
+      "requires": "l08_izquierda_cinco"
+    },
+    {
+      "left": "C3:1/2 G2:1/2 C3:1",
+      "subtitle": "Tres notas a la vez, con el bajo",
+      "language": "es",
+      "id": "l10_acordes",
+      "right": "{bpm=60} C4+E4+G4:1/2 B3+D4+G4:1/2 C4+E4+G4:1",
+      "title": "Acordes de Do y Sol",
+      "group": "Las dos manos",
+      "requires": "l09_manos_en_paralelo"
+    },
+    {
+      "left": "C3+G3:1 G2+D3:1 C3+G3:1 G2+D3:1",
+      "subtitle": "Con acompañamiento en clave de fa",
+      "language": "de",
+      "id": "s05_oda_dos_manos",
+      "right": "{bpm=80} E4:1/4 E4:1/4 F4:1/4 G4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/4 C4:1/4 D4:1/4 E4:1/4 E4:3/8 D4:1/8 D4:1/2",
+      "title": "Himno de la alegría (2 manos)",
+      "group": "Las dos manos",
+      "requires": "l04_dos_manos"
+    }
+  ]
+}

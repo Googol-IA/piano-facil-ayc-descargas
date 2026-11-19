@@ -7,6 +7,8 @@
 <title>Piano fácil AyC — aprende piano jugando</title>
 <meta name="description" content="Piano fácil AyC: una app familiar para aprender piano paso a paso, con teclado en pantalla, pentagrama y canciones del mundo.">
 <meta name="theme-color" content="#ece4fa">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="icono.png">
 <style>
   :root{
     --purple:#8c74c9; --purple-dark:#5a4390; --purple-soft:#f1ecfa;
@@ -18,7 +20,9 @@
   a{color:var(--purple-dark)}
   .wrap{max-width:1040px;margin:0 auto;padding:0 20px}
   header.top{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
-  .logo{font-weight:900;font-size:1.25rem;color:var(--purple-dark);text-decoration:none}
+  .logo{font-weight:900;font-size:1.25rem;color:var(--purple-dark);text-decoration:none;display:inline-flex;align-items:center;gap:10px}
+  .logo img{width:44px;height:44px;border-radius:12px;display:block}
+  .appicon{width:140px;height:140px;border-radius:32px;display:block;margin:0 0 18px;box-shadow:0 10px 24px #5a439040}
   .logo span{color:var(--amber)}
   .hero .logo{color:var(--purple-dark)}
   nav a{margin-left:18px;text-decoration:none;font-weight:700;color:var(--muted)}
@@ -65,11 +69,12 @@
 <div class="hero">
   <div class="wrap">
     <header class="top">
-      <a class="logo" href="#">Piano fácil <span>AyC</span></a>
+      <a class="logo" href="#"><img src="favicon.png" alt="" width="44" height="44">Piano fácil <span>AyC</span></a>
       <nav><a href="#que-hace">La app</a><a href="#instalar">Instalar</a><a href="#privacidad">Privacidad</a></nav>
     </header>
     <div class="grid">
       <div>
+        <img class="appicon" src="icono.png" alt="Icono de Piano fácil AyC: dos niñas tocando el piano" width="140" height="140">
         <h1>Aprender piano,<br>paso a paso y jugando</h1>
         <p>Una app hecha en familia para dar los primeros pasos al piano: toca en la pantalla, con un teclado conectado o con tu piano de verdad.</p>
         <a class="btn" href="#descargar">⬇ Descargar para Android</a>
@@ -106,8 +111,9 @@
 
   <section id="descargar">
     <div class="dl">
+      <img class="appicon" src="icono.png" alt="" width="96" height="96" style="width:96px;height:96px;border-radius:22px;margin:0 auto 14px">
       <h2>Descarga Piano fácil AyC</h2>
-      <p class="lead" style="margin:0 auto 18px">Versión <span id="ver">0.1.0</span> para Android. Es un archivo APK de uso familiar (no está en Google Play).</p>
+      <p class="lead" style="margin:0 auto 18px">Versión <span id="ver">0.3.0</span> para Android. Es un archivo APK de uso familiar (no está en Google Play).</p>
       <a class="btn" id="dl-btn" href="https://github.com/Googol-IA/piano-facil-ayc-descargas/releases/latest/download/PianoFacilAyC.apk">⬇ Descargar la app (APK)</a>
       <p class="small" style="margin-top:14px">Si ves un aviso de “archivo no común”, es normal: la app no se distribuye por Play Store.<br>Lee los 3 pasos de abajo para instalarla.</p>
     </div>
@@ -121,7 +127,7 @@
       <li><strong>Ábrelo</strong>Cuando termine, pulsa “Abrir” en el aviso de descarga o búscalo en la carpeta Descargas.</li>
       <li><strong>Permite la instalación</strong>Android te pedirá permiso para instalar apps desde ese navegador: actívalo, vuelve atrás y pulsa “Instalar”.</li>
     </ol>
-    <p class="small" style="margin-top:16px">Consejo: tras instalar puedes quitar de nuevo ese permiso en Ajustes. Para recibir actualizaciones, vuelve a esta página y descarga la versión nueva encima de la anterior.</p>
+    <p class="small" style="margin-top:16px">Las canciones nuevas llegan solas al abrir la app con internet. Cuando haya una versión nueva de la app, te lo avisará en la primera pantalla: un adulto pulsa «Actualizar» y confirma la instalación.</p>
   </section>
 
   <section id="privacidad">

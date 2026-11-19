@@ -2,3 +2,6 @@
   X-Robots-Tag: noindex, nofollow
   X-Content-Type-Options: nosniff
   Referrer-Policy: no-referrer
+
+/contenido/*
+  Cache-Control: no-cache
