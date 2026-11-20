@@ -57,6 +57,9 @@
   .steps strong{display:block;margin-bottom:4px}
   .dl{background:var(--purple-soft);border-radius:32px;padding:40px 24px;text-align:center}
   .dl .btn{margin-top:8px}
+  .btn.play{background:var(--purple,#6c4ab6);color:#fff;box-shadow:0 6px 0 #4b3285;margin-right:10px}
+  .btn.play:hover{box-shadow:0 4px 0 #4b3285}
+  .play-note{display:none;margin-top:10px;font-size:.95rem}
   .small{font-size:.9rem;color:var(--muted)}
   .privacy{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;list-style:none;padding:0;margin:0}
   .privacy li{background:#fff;border:2px solid var(--purple-soft);border-radius:16px;padding:14px 16px}
@@ -76,8 +79,10 @@
       <div>
         <h1>Aprender piano,<br>paso a paso y jugando</h1>
         <p>Una app hecha en familia para dar los primeros pasos al piano: toca en la pantalla, con un teclado conectado o con tu piano de verdad.</p>
+        <a class="btn play" href="#descargar" data-play>▶ Jugar</a>
         <a class="btn" href="#descargar">⬇ Descargar para Android</a>
         <a class="btn ghost" href="#instalar">¿Cómo se instala?</a>
+        <p class="play-note" data-play-note>«Jugar» abre la app en la tablet o el móvil Android donde está instalada. Abre esta página allí.</p>
         <div class="meta">Gratis · Para tablet y móvil Android 10 o superior · Sin anuncios</div>
       </div>
       <div style="position:relative;display:flex;flex-direction:column;align-items:center">
@@ -113,7 +118,7 @@
     <div class="dl">
       <img class="appicon" src="icono.png" alt="" width="96" height="96" style="width:96px;height:96px;border-radius:22px;margin:0 auto 14px">
       <h2>Descarga Piano fácil AyC</h2>
-      <p class="lead" style="margin:0 auto 18px">Versión <span id="ver">0.4.1</span> para Android. Es un archivo APK de uso familiar (no está en Google Play).</p>
+      <p class="lead" style="margin:0 auto 18px">Versión <span id="ver">0.5.0</span> para Android. Es un archivo APK de uso familiar (no está en Google Play).</p>
       <a class="btn" id="dl-btn" href="https://github.com/Googol-IA/piano-facil-ayc-descargas/releases/latest/download/PianoFacilAyC.apk">⬇ Descargar la app (APK)</a>
       <p class="small" style="margin-top:14px">Si ves un aviso de “archivo no común”, es normal: la app no se distribuye por Play Store.<br>Lee los 3 pasos de abajo para instalarla.</p>
     </div>
@@ -148,6 +153,23 @@
   <div class="wrap">Piano fácil AyC · Hecha en familia con cariño · Las canciones son tradicionales o de dominio público.<br>
   <span class="small">Proyecto personal y educativo; no está afiliado a ninguna otra aplicación de piano.</span></div>
 </footer>
+
+<script>
+  // «Jugar»: en Android abre la app si está instalada; si no lo está, Chrome lleva a la descarga.
+  (function () {
+    var android = /Android/i.test(navigator.userAgent);
+    var fallback = location.origin + location.pathname + "#descargar";
+    var url = "intent://jugar#Intent;scheme=pianofacilayc;package=com.ayc.pianofacil;" +
+      "S.browser_fallback_url=" + encodeURIComponent(fallback) + ";end";
+    document.querySelectorAll("[data-play]").forEach(function (b) {
+      b.addEventListener("click", function (e) {
+        e.preventDefault();
+        if (android) { location.href = url; return; }
+        document.querySelectorAll("[data-play-note]").forEach(function (n) { n.style.display = "block"; });
+      });
+    });
+  })();
+</script>
 
 </body>
 </html>

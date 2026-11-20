@@ -1,56 +1,666 @@
 {
-  "minApp": 1,
-  "version": 2,
+  "version": 3,
+  "minApp": 6,
   "lessons": [
     {
-      "left": null,
-      "subtitle": "Tus primeras 3 notas",
-      "language": "es",
       "id": "l01_do_re_mi",
-      "right": "{bpm=70} C4:1/4@1 D4:1/4@2 E4:1/4@3 E4:1/4@3 D4:1/4@2 C4:1/2@1 C4:1/4 D4:1/4 E4:1/4 C4:1/4 E4:1/4 D4:1/4 C4:1/2",
       "title": "Do, Re, Mi",
-      "group": "Primeros pasos",
-      "requires": null
+      "subtitle": "Tus tres primeras notas",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": null,
+      "right": "{bpm=70} C4:1/4@1 D4:1/4@2 E4:1/4@3 E4:1/4 D4:1/4 C4:1/2 C4:1/4 D4:1/4 E4:1/4 C4:1/4 E4:1/4 D4:1/4 C4:1/2 E4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/2 E4:1/2 D4:1/4 D4:1/4 E4:1/4 D4:1/4 C4:1 C4:1/4 C4:1/4 D4:1/4 D4:1/4 E4:1/4 E4:1/4 D4:1/2 E4:1/4 E4:1/4 D4:1/4 D4:1/4 C4:1/2 C4:1/2 C4:1/4 E4:1/4 D4:1/4 C4:1",
+      "left": null
     },
     {
-      "left": null,
-      "subtitle": "Tres notas más",
-      "language": "es",
       "id": "l02_mi_fa_sol",
-      "right": "{bpm=70} E4:1/4@3 F4:1/4@4 G4:1/4@5 G4:1/4@5 F4:1/4@4 E4:1/2@3 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2",
       "title": "Mi, Fa, Sol",
-      "group": "Primeros pasos",
-      "requires": "l01_do_re_mi"
+      "subtitle": "Tres notas más: dedos 3, 4 y 5",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "l01_do_re_mi",
+      "right": "{bpm=70} E4:1/4@3 F4:1/4@4 G4:1/4@5 G4:1/4 F4:1/4 E4:1/2 C4:1/4@1 D4:1/4 E4:1/4 F4:1/4 G4:1/2 G4:1/4 F4:1/4 E4:1/4 F4:1/4 G4:1/2 G4:1/2 F4:1/4 E4:1/4 F4:1/4 G4:1/4 E4:1/2 C4:1/2 E4:1/4 G4:1/4 F4:1/4 E4:1/4 F4:1/4 G4:1/2 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1",
+      "left": null
     },
     {
-      "left": null,
-      "subtitle": "Un dedo para cada nota: Do Re Mi Fa Sol",
-      "language": "es",
       "id": "l05_cinco_notas",
-      "right": "{bpm=70} C4:1/4@1 D4:1/4@2 E4:1/4@3 F4:1/4@4 G4:1/2@5 G4:1/4@5 F4:1/4@4 E4:1/4@3 D4:1/4@2 C4:1/2@1",
       "title": "Cinco notas",
-      "group": "Primeros pasos",
-      "requires": "l02_mi_fa_sol"
+      "subtitle": "Los cinco dedos en su sitio",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "l02_mi_fa_sol",
+      "right": "{bpm=70} C4:1/4@1 D4:1/4@2 E4:1/4@3 F4:1/4@4 G4:1/2@5 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/2 C4:1/4 E4:1/4 D4:1/4 F4:1/4 E4:1/4 G4:1/4 F4:1/2 G4:1/4 E4:1/4 F4:1/4 D4:1/4 E4:1/4 C4:1/4 D4:1/2 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/4 G4:1/4 G4:1/2 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/4 C4:1/4 C4:1/2",
+      "left": null
     },
     {
-      "left": null,
-      "subtitle": "Notas de un tiempo y de dos tiempos",
-      "language": "es",
+      "id": "b01_saltitos",
+      "title": "Saltitos",
+      "subtitle": "Saltar una tecla: Do-Mi, Re-Fa, Mi-Sol",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "l05_cinco_notas",
+      "right": "{bpm=70} C4:1/4 E4:1/4 C4:1/4 E4:1/4 D4:1/4 F4:1/4 D4:1/2 E4:1/4 G4:1/4 E4:1/4 G4:1/4 F4:1/4 D4:1/4 C4:1/2 C4:1/4 E4:1/4 G4:1/4 E4:1/4 C4:1/2 C4:1/2 D4:1/4 F4:1/4 E4:1/4 G4:1/4 E4:1/4 C4:1/4 D4:1/2 G4:1/4 E4:1/4 F4:1/4 D4:1/4 E4:1/4 C4:1/4 D4:1/2 C4:1/4 E4:1/4 D4:1/4 F4:1/4 E4:1/4 G4:1/4 C4:1",
+      "left": null
+    },
+    {
+      "id": "b02_notas_repetidas",
+      "title": "Notas que se repiten",
+      "subtitle": "Tocar la misma tecla varias veces",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b01_saltitos",
+      "right": "{bpm=70} C4:1/4 C4:1/4 C4:1/4 C4:1/4 D4:1/4 D4:1/4 D4:1/2 E4:1/4 E4:1/4 E4:1/4 E4:1/4 F4:1/4 F4:1/4 F4:1/2 G4:1/4 G4:1/4 G4:1/4 G4:1/4 F4:1/4 F4:1/4 E4:1/2 D4:1/4 D4:1/4 D4:1/4 D4:1/4 C4:1/4 C4:1/4 C4:1/2 E4:1/4 E4:1/4 D4:1/4 D4:1/4 C4:1/4 C4:1/4 D4:1/2 G4:1/4 G4:1/4 E4:1/4 E4:1/4 C4:1",
+      "left": null
+    },
+    {
       "id": "l06_largas_y_cortas",
-      "right": "{bpm=70} C4:1/4@1 C4:1/4 D4:1/2@2 E4:1/4@3 E4:1/4 F4:1/2@4 G4:1/4@5 G4:1/4 E4:1/4@3 C4:1/4@1 D4:1/2@2 C4:1@1",
       "title": "Largas y cortas",
-      "group": "Primeros pasos",
-      "requires": "l05_cinco_notas"
+      "subtitle": "Negras, blancas y redondas",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b02_notas_repetidas",
+      "right": "{bpm=70} C4:1/4@1 C4:1/4 D4:1/2@2 E4:1/4@3 E4:1/4 F4:1/2@4 G4:1/4@5 G4:1/4 E4:1/4@3 C4:1/4@1 D4:1/2@2 C4:1@1 G4:1/2 E4:1/4 E4:1/4 F4:1/2 D4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2 G4:1/2 E4:1 D4:1/2 D4:1/2 C4:1/4 D4:1/4 E4:1/4 C4:1/4 D4:3/4 E4:1/4 C4:1 E4:1/4 F4:1/4 G4:1/4 E4:1/4 C4:1",
+      "left": null
     },
     {
-      "left": null,
-      "subtitle": "Del Do al Do pasando el pulgar",
-      "language": "es",
+      "id": "b03_silencios",
+      "title": "Los silencios",
+      "subtitle": "En el silencio no se toca: ¡cuenta!",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "l06_largas_y_cortas",
+      "right": "{bpm=70} C4:1/4 D4:1/4 E4:1/4 _:1/4 E4:1/4 F4:1/4 G4:1/4 _:1/4 G4:1/4 F4:1/4 E4:1/4 _:1/4 D4:1/4 C4:1/2 _:1/4 E4:1/4 _:1/4 E4:1/4 _:1/4 D4:1/4 D4:1/4 C4:1/2 C4:1/4 E4:1/4 G4:1/4 _:1/4 G4:1/4 E4:1/4 C4:1/2 D4:1/4 _:1/4 F4:1/4 _:1/4 E4:1/4 _:1/4 C4:1/4 _:1/4 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2 _:1/2",
+      "left": null
+    },
+    {
+      "id": "b04_posicion_sol",
+      "title": "Posición de Sol",
+      "subtitle": "El pulgar en Sol: Sol, La, Si, Do, Re",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b03_silencios",
+      "right": "{bpm=70} G4:1/4@1 A4:1/4@2 B4:1/4@3 C5:1/4@4 D5:1/2@5 D5:1/4 C5:1/4 B4:1/4 A4:1/4 G4:1/2 G4:1/4 A4:1/4 B4:1/4 G4:1/4 B4:1/4 A4:1/4 G4:1/2 B4:1/4 C5:1/4 D5:1/4 B4:1/4 C5:1/4 A4:1/4 B4:1/2 G4:1/4 B4:1/4 A4:1/4 C5:1/4 B4:1/4 D5:1/4 C5:1/2 D5:1/4 B4:1/4 C5:1/4 A4:1/4 B4:1/4 A4:1/4 G4:1/2",
+      "left": null
+    },
+    {
+      "id": "b05_sol_abajo",
+      "title": "Bajando desde Re",
+      "subtitle": "Posición de Sol, ahora bajando",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b04_posicion_sol",
+      "right": "{bpm=70} D5:1/4@5 C5:1/4 B4:1/4 A4:1/4 G4:1/2 A4:1/2 B4:1/4 A4:1/4 G4:1/4 A4:1/4 B4:1/2 B4:1/2 D5:1/4 D5:1/4 C5:1/4 C5:1/4 B4:1/4 B4:1/4 A4:1/2 G4:1/4 B4:1/4 D5:1/4 B4:1/4 G4:1/2 G4:1/2 C5:1/4 B4:1/4 A4:1/4 G4:1/4 A4:1/4 B4:1/4 A4:1/2 D5:1/4 C5:1/4 B4:1/4 A4:1/4 G4:1",
+      "left": null
+    },
+    {
+      "id": "l03_mano_izquierda",
+      "title": "Mano izquierda",
+      "subtitle": "El meñique izquierdo en el Do grave",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b05_sol_abajo",
+      "right": null,
+      "left": "{bpm=70} C3:1/4@5 D3:1/4@4 E3:1/4@3 E3:1/4 D3:1/4 C3:1/2 C3:1/4 D3:1/4 E3:1/4 C3:1/4 E3:1/4 D3:1/4 C3:1/2 E3:1/4 D3:1/4 C3:1/4 D3:1/4 E3:1/2 E3:1/2 D3:1/4 D3:1/4 E3:1/4 D3:1/4 C3:1 C3:1/4 C3:1/4 D3:1/4 D3:1/4 E3:1/4 E3:1/4 D3:1/2 E3:1/4 E3:1/4 D3:1/4 D3:1/4 C3:1/2 C3:1/2 C3:1/4 E3:1/4 D3:1/4 C3:1"
+    },
+    {
+      "id": "b09_izq_saltos",
+      "title": "Saltitos con la izquierda",
+      "subtitle": "Saltar teclas con la mano izquierda",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "l03_mano_izquierda",
+      "right": null,
+      "left": "{bpm=70} C3:1/4@5 E3:1/4@3 C3:1/4 E3:1/4 D3:1/4 F3:1/4 D3:1/2 E3:1/4 G3:1/4 E3:1/4 G3:1/4 F3:1/4 D3:1/4 C3:1/2 C3:1/4 E3:1/4 G3:1/4 E3:1/4 C3:1/2 C3:1/2 G3:1/4 E3:1/4 F3:1/4 D3:1/4 E3:1/4 C3:1/4 D3:1/2 C3:1/4 E3:1/4 D3:1/4 F3:1/4 E3:1/4 G3:1/4 F3:1/2 G3:1/4 F3:1/4 E3:1/4 D3:1/4 C3:1"
+    },
+    {
+      "id": "l08_izquierda_cinco",
+      "title": "Cinco notas graves",
+      "subtitle": "Los cinco dedos de la mano izquierda",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b09_izq_saltos",
+      "right": null,
+      "left": "{bpm=70} C3:1/4@5 D3:1/4@4 E3:1/4@3 F3:1/4@2 G3:1/2@1 G3:1/4@1 F3:1/4@2 E3:1/4@3 D3:1/4@4 C3:1/2@5 C3:1/4 E3:1/4 D3:1/4 F3:1/4 E3:1/4 G3:1/4 F3:1/2 G3:1/4 E3:1/4 F3:1/4 D3:1/4 E3:1/4 C3:1/4 D3:1/2 C3:1/4 D3:1/4 E3:1/4 F3:1/4 G3:1/4 G3:1/4 G3:1/2 G3:1/4 F3:1/4 E3:1/4 D3:1/4 C3:1/4 C3:1/4 C3:1/2"
+    },
+    {
       "id": "l07_escala_de_do",
-      "right": "{bpm=60} C4:1/4@1 D4:1/4@2 E4:1/4@3 F4:1/4@1 G4:1/4@2 A4:1/4@3 B4:1/4@4 C5:1/2@5 C5:1/4@5 B4:1/4@4 A4:1/4@3 G4:1/4@2 F4:1/4@1 E4:1/4@3 D4:1/4@2 C4:1/2@1",
       "title": "La escala de Do",
-      "group": "Primeros pasos",
-      "requires": "l06_largas_y_cortas"
+      "subtitle": "El pulgar pasa por debajo para llegar al Do agudo",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "l08_izquierda_cinco",
+      "right": "{bpm=60} C4:1/4@1 D4:1/4@2 E4:1/4@3 F4:1/4@1 G4:1/4@2 A4:1/4@3 B4:1/4@4 C5:1/2@5 C5:1/4@5 B4:1/4@4 A4:1/4@3 G4:1/4@2 F4:1/4@1 E4:1/4@3 D4:1/4@2 C4:1/2@1 C4:1/8@1 D4:1/8@2 E4:1/4@3 F4:1/8@1 G4:1/8@2 A4:1/4@3 B4:1/8@4 C5:1/8@5 C5:1/2@5 B4:1/8@4 A4:1/8@3 G4:1/4@2 F4:1/8@1 E4:1/8@3 D4:1/4@2 C4:1/2@1 _:1/2 C4:1/4@1 E4:1/4@3 D4:1/4@2 F4:1/4@1 E4:1/4@3 G4:1/4@2 F4:1/4@1 A4:1/4@3 G4:1/4@2 B4:1/4@4 A4:1/4@3 C5:1/4@5 C5:1/2@5 B4:1/4@4 A4:1/4@3 G4:1/4@2 F4:1/4@1 E4:1/4@3 D4:1/4@2 C4:1@1",
+      "left": null
+    },
+    {
+      "id": "b06_corcheas",
+      "title": "Corcheas",
+      "subtitle": "Dos notas en un pulso: ¡más rápido!",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "l07_escala_de_do",
+      "right": "{bpm=66} C4:1/8 D4:1/8 E4:1/8 F4:1/8 G4:1/4 G4:1/4 G4:1/8 F4:1/8 E4:1/8 D4:1/8 C4:1/4 C4:1/4 C4:1/8 C4:1/8 D4:1/8 D4:1/8 E4:1/4 E4:1/4 E4:1/8 F4:1/8 G4:1/8 E4:1/8 F4:1/4 D4:1/4 C4:1/8 E4:1/8 D4:1/8 F4:1/8 E4:1/8 G4:1/8 F4:1/8 D4:1/8 E4:1/8 D4:1/8 C4:1/8 D4:1/8 E4:1/4 C4:1/4 C4:1/2",
+      "left": null
+    },
+    {
+      "id": "b07_puntillo",
+      "title": "La nota con puntillo",
+      "subtitle": "Una blanca con puntillo dura tres pulsos",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b06_corcheas",
+      "right": "{bpm=70} C4:3/4 D4:1/4 E4:3/4 F4:1/4 G4:3/4 F4:1/4 E4:1/2 D4:1/2 E4:1/4 F4:1/4 G4:3/4 _:1/4 G4:1/4 F4:1/4 E4:3/4 D4:1/4 C4:1/4 E4:1/4 G4:1/4 E4:1/4 D4:3/4 _:1/4 E4:3/4 D4:1/4 C4:1",
+      "left": null
+    },
+    {
+      "id": "b10_izq_sol",
+      "title": "Izquierda en Sol",
+      "subtitle": "El meñique izquierdo en Sol",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b07_puntillo",
+      "right": null,
+      "left": "{bpm=70} G2:1/4@5 A2:1/4@4 B2:1/4@3 C3:1/4@2 D3:1/2@1 D3:1/4 C3:1/4 B2:1/4 A2:1/4 G2:1/2 G2:1/4 B2:1/4 A2:1/4 C3:1/4 B2:1/4 D3:1/4 C3:1/2 D3:1/4 B2:1/4 C3:1/4 A2:1/4 B2:1/4 G2:1/4 A2:1/2 G2:1/4 A2:1/4 B2:1/4 C3:1/4 D3:1/4 D3:1/4 D3:1/2 D3:1/4 C3:1/4 B2:1/4 A2:1/4 G2:1"
+    },
+    {
+      "id": "b11_izq_ritmo",
+      "title": "Ritmo con la izquierda",
+      "subtitle": "Blancas, negras y corcheas en la mano izquierda",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b10_izq_sol",
+      "right": null,
+      "left": "{bpm=66} C3:1/2 E3:1/2 G3:1/2 E3:1/2 C3:1/4 C3:1/4 E3:1/4 E3:1/4 G3:1/2 G3:1/2 G3:1/8 F3:1/8 E3:1/8 D3:1/8 C3:1/2 C3:1/8 D3:1/8 E3:1/8 F3:1/8 G3:1/2 E3:1/4 D3:1/4 C3:1/4 D3:1/4 E3:3/4 _:1/4 G3:1/4 E3:1/4 D3:1/4 C3:1/4 C3:1"
+    },
+    {
+      "id": "b08_eco",
+      "title": "El eco",
+      "subtitle": "Una frase en Do y su eco en Sol",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b11_izq_ritmo",
+      "right": "{bpm=70} C4:1/4 D4:1/4 E4:1/4 C4:1/4 G4:1/2 _:1/2 G4:1/4 A4:1/4 B4:1/4 G4:1/4 D5:1/2 _:1/2 E4:1/4 F4:1/4 G4:1/4 E4:1/4 C4:1/2 _:1/2 B4:1/4 C5:1/4 D5:1/4 B4:1/4 G4:1/2 _:1/2 C4:1/4 E4:1/4 G4:1/4 E4:1/4 D4:1/4 F4:1/4 E4:1/2 G4:1/4 B4:1/4 D5:1/4 B4:1/4 A4:1/4 C5:1/4 G4:1/2",
+      "left": null
+    },
+    {
+      "id": "b12_turnos",
+      "title": "Por turnos",
+      "subtitle": "Primero una mano y luego la otra",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b08_eco",
+      "right": "{bpm=70} C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2 _:1/2 _:1 _:1 E4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/2 _:1/2 _:1 _:1 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1",
+      "left": "_:1 _:1 G3:1/4 F3:1/4 E3:1/4 D3:1/4 C3:1/2 _:1/2 _:1 _:1 C3:1/4 D3:1/4 E3:1/4 D3:1/4 C3:1/2 _:1/2 _:1 _:1"
+    },
+    {
+      "id": "b13_pregunta_respuesta",
+      "title": "Pregunta y respuesta",
+      "subtitle": "La derecha pregunta y la izquierda contesta",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b12_turnos",
+      "right": "{bpm=70} E4:1/4 E4:1/4 F4:1/4 G4:1/2 _:1/4 _:1/2 _:1 G4:1/4 F4:1/4 E4:1/4 D4:1/2 _:1/4 _:1/2 _:1 C4:1/4 E4:1/4 G4:1/4 E4:1/4 D4:1/2 _:1/2 _:1",
+      "left": "_:1 G3:1/4 G3:1/4 F3:1/4 E3:1/2 _:1/4 _:1/2 _:1 D3:1/4 E3:1/4 F3:1/4 G3:1/2 _:1/4 _:1/2 _:1 G3:1/4 E3:1/4 C3:1/4 E3:1/4 C3:1/2 _:1/2"
+    },
+    {
+      "id": "b14_fa_sostenido",
+      "title": "Fa sostenido",
+      "subtitle": "La tecla negra entre Fa y Sol",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b13_pregunta_respuesta",
+      "right": "{bpm=70} G4:1/4 A4:1/4 B4:1/4 A4:1/4 G4:1/2 F#4:1/2 G4:1/4 F#4:1/4 G4:1/4 A4:1/4 B4:1/2 G4:1/2 D5:1/4 C5:1/4 B4:1/4 A4:1/4 G4:1/4 F#4:1/4 G4:1/2 A4:1/4 F#4:1/4 G4:1/4 A4:1/4 B4:1/2 B4:1/2 D5:1/4 B4:1/4 A4:1/4 F#4:1/4 G4:1/2 A4:1/2 B4:1/4 A4:1/4 G4:1/4 F#4:1/4 G4:1",
+      "left": null
+    },
+    {
+      "id": "b15_si_bemol",
+      "title": "Si bemol",
+      "subtitle": "La tecla negra entre La y Si (posición de Fa)",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b14_fa_sostenido",
+      "right": "{bpm=70} F4:1/4 G4:1/4 A4:1/4 Bb4:1/4 C5:1/2 C5:1/2 C5:1/4 Bb4:1/4 A4:1/4 G4:1/4 F4:1/2 F4:1/2 F4:1/4 A4:1/4 G4:1/4 Bb4:1/4 A4:1/4 C5:1/4 Bb4:1/2 A4:1/4 G4:1/4 F4:1/4 G4:1/4 A4:1/2 A4:1/2 C5:1/4 A4:1/4 Bb4:1/4 G4:1/4 A4:1/4 F4:1/4 G4:1/2 A4:1/4 Bb4:1/4 G4:1/4 E4:1/4 F4:1",
+      "left": null
+    },
+    {
+      "id": "b16_quintas",
+      "title": "Grandes saltos",
+      "subtitle": "Saltos de Do a Sol con el pulgar y el meñique",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b15_si_bemol",
+      "right": "{bpm=70} C4:1/4@1 G4:1/4@5 C4:1/4 G4:1/4 E4:1/2 G4:1/2 G4:1/4 C4:1/4 G4:1/4 C4:1/4 E4:1/2 C4:1/2 C4:1/4 E4:1/4 G4:1/4 C4:1/4 G4:1/4 E4:1/4 C4:1/2 D4:1/4 G4:1/4 D4:1/4 G4:1/4 F4:1/2 D4:1/2 C4:1/4 G4:1/4 E4:1/4 G4:1/4 D4:1/4 G4:1/4 F4:1/2 E4:1/4 G4:1/4 D4:1/4 G4:1/4 C4:1",
+      "left": null
+    },
+    {
+      "id": "b17_escaleras",
+      "title": "Escaleras",
+      "subtitle": "Subir y bajar sin mirar las manos",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b16_quintas",
+      "right": "{bpm=70} C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2 _:1/2 D4:1/4 E4:1/4 F4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/4 E4:1/4 F4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/4 E4:1/4 C4:1/4 E4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/2",
+      "left": null
+    },
+    {
+      "id": "b18_posicion_re",
+      "title": "Posición de Re",
+      "subtitle": "Re, Mi, Fa, Sol, La: suena un poco misterioso",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b17_escaleras",
+      "right": "{bpm=70} D4:1/4@1 E4:1/4 F4:1/4 G4:1/4 A4:1/2@5 A4:1/2 A4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1/2 D4:1/2 D4:1/4 F4:1/4 E4:1/4 G4:1/4 F4:1/4 A4:1/4 G4:1/2 A4:1/4 F4:1/4 G4:1/4 E4:1/4 F4:1/4 D4:1/4 E4:1/2 D4:1/4 E4:1/4 F4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2 A4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1",
+      "left": null
+    },
+    {
+      "id": "b19_marcha",
+      "title": "La marcha",
+      "subtitle": "Un, dos, un, dos: como un desfile",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b18_posicion_re",
+      "right": "{bpm=88} C4:1/4 C4:1/4 G4:1/4 G4:1/4 E4:1/4 E4:1/4 C4:1/2 D4:1/4 D4:1/4 F4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/2 G4:1/4 G4:1/4 E4:1/4 E4:1/4 F4:1/4 F4:1/4 D4:1/2 E4:1/8 E4:1/8 E4:1/4 D4:1/8 D4:1/8 D4:1/4 C4:1/2 C4:1/4 E4:1/4 G4:1/4 E4:1/4 F4:1/4 D4:1/4 E4:1/2 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:3/4 _:1/4",
+      "left": null
+    },
+    {
+      "id": "b20_repaso_basico",
+      "title": "Gran repaso básico",
+      "subtitle": "Todo lo aprendido en una sola pieza",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "b19_marcha",
+      "right": "{bpm=70} C4:1/4 D4:1/4 E4:1/4 C4:1/4 E4:1/4 F4:1/4 G4:1/2 G4:1/8 A4:1/8 G4:1/8 F4:1/8 E4:1/4 C4:1/4 D4:1/2 _:1/2 _:1 _:1 E4:1/4 F4:1/4 G4:1/4 E4:1/4 D4:1/4 E4:1/4 C4:1/2 _:1 _:1 G4:1/4 E4:1/4 F4:1/4 D4:1/4 E4:3/4 _:1/4 C4:1/4 E4:1/4 G4:1/4 C5:1/4 C5:1",
+      "left": "_:1 _:1 _:1 _:1 C3:1/4 D3:1/4 E3:1/4 F3:1/4 G3:1/2 G3:1/2 _:1 _:1 G3:1/4 F3:1/4 E3:1/4 D3:1/4 C3:1/2 _:1/2 _:1 _:1 _:1 _:1"
+    },
+    {
+      "id": "l04_dos_manos",
+      "title": "Las dos manos",
+      "subtitle": "Las dos manos a la vez por primera vez",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "l08_izquierda_cinco",
+      "right": "{bpm=60} E4:1/2@3 D4:1/2@2 C4:1@1 E4:1/2 D4:1/2 C4:1/2 C4:1/2 G4:1/2 F4:1/2 E4:1/2 D4:1/2 E4:1/2 D4:1/2 C4:1 C4:1/2 E4:1/2 G4:1 E4:1/2 D4:1/2 C4:1",
+      "left": "C3:1@5 C3:1 C3:1 C3:1 C3:1 G2:1 C3:1 C3:1 C3:1 C3:1 G2:1 C3:1"
+    },
+    {
+      "id": "l09_manos_en_paralelo",
+      "title": "Manos en paralelo",
+      "subtitle": "Las dos manos hacen lo mismo",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "l04_dos_manos",
+      "right": "{bpm=60} C4:1/4@1 D4:1/4@2 E4:1/4@3 F4:1/4@4 G4:1/2@5 F4:1/4@4 E4:1/4@3 D4:1/4@2 C4:1/2@1 C4:1/4 E4:1/4 D4:1/4 F4:1/4 E4:1/4 G4:1/4 E4:1/4 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/4 E4:1/2 C4:1/2 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/4 E4:1/4 D4:1/4 C4:1/4 D4:1/2 E4:1/2 C4:1",
+      "left": "C3:1/4@5 D3:1/4@4 E3:1/4@3 F3:1/4@2 G3:1/2@1 F3:1/4@2 E3:1/4@3 D3:1/4@4 C3:1/2@5 C3:1/4 E3:1/4 D3:1/4 F3:1/4 E3:1/4 G3:1/4 E3:1/4 C3:1/4 D3:1/4 E3:1/4 F3:1/4 G3:1/4 E3:1/2 C3:1/2 G3:1/4 F3:1/4 E3:1/4 D3:1/4 C3:1/4 E3:1/4 D3:1/4 C3:1/4 D3:1/2 E3:1/2 C3:1"
+    },
+    {
+      "id": "i01_acorde_de_fondo",
+      "title": "Acorde de fondo",
+      "subtitle": "La izquierda mantiene un acorde y la derecha canta",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "l09_manos_en_paralelo",
+      "right": "{bpm=66} E4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/4 E4:1/4 E4:1/2 D4:1/4 D4:1/4 D4:1/2 E4:1/4 G4:1/4 G4:1/2 E4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/4 E4:1/4 E4:1/4 E4:1/4 D4:1/4 D4:1/4 E4:1/4 D4:1/4 C4:1",
+      "left": "C3+E3+G3:1@5.3.1 G2+B2+D3:1@5.3.1 G2+B2+D3:1 C3+E3+G3:1 C3+E3+G3:1 C3+E3+G3:1 G2+B2+D3:1 C3+E3+G3:1"
+    },
+    {
+      "id": "l10_acordes",
+      "title": "Acordes de Do y Sol",
+      "subtitle": "Tres notas a la vez con la mano derecha",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i01_acorde_de_fondo",
+      "right": "{bpm=60} C4+E4+G4:1/2@1.3.5 B3+D4+G4:1/2@1.2.5 C4+E4+G4:1@1.3.5 C4+E4+G4:1/2 B3+D4+G4:1/2 C4+E4+G4:1/2 B3+D4+G4:1/2 C4+E4+G4:1/4 C4+E4+G4:1/4 B3+D4+G4:1/4 B3+D4+G4:1/4 C4+E4+G4:1/2 C4+E4+G4:1/2 B3+D4+G4:1/2 B3+D4+G4:1/2 C4+E4+G4:1",
+      "left": "C3:1/2 G2:1/2 C3:1 C3:1/2 G2:1/2 C3:1/2 G2:1/2 C3:1/4 C3:1/4 G2:1/4 G2:1/4 C3:1/2 C3:1/2 G2:1/2 G2:1/2 C3:1"
+    },
+    {
+      "id": "i02_do_y_sol_izquierda",
+      "title": "Do y Sol con la izquierda",
+      "subtitle": "Cambiar de acorde sin levantar la mirada",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "l10_acordes",
+      "right": "{bpm=66} C4:1/4 E4:1/4 G4:1/4 E4:1/4 D4:1/4 F4:1/4 D4:1/2 C4:1/4 E4:1/4 G4:1/4 C5:1/4 B4:1/4 G4:1/4 D4:1/2 E4:1/4 G4:1/4 F4:1/4 D4:1/4 C4:1/4 E4:1/4 D4:1/2 B3:1/4 D4:1/4 F4:1/4 D4:1/4 C4:1",
+      "left": "C3+E3+G3:1/2 G2+B2+D3:1/2 G2+B2+D3:1/2 G2+B2+D3:1/2 C3+E3+G3:1/2 C3+E3+G3:1/2 G2+B2+D3:1/2 G2+B2+D3:1/2 C3+E3+G3:1/2 G2+B2+D3:1/2 C3+E3+G3:1/2 G2+B2+D3:1/2 G2+B2+D3:1/2 G2+B2+D3:1/2 C3+E3+G3:1"
+    },
+    {
+      "id": "i03_tres_acordes",
+      "title": "Los tres acordes mágicos",
+      "subtitle": "Do, Fa y Sol: con ellos se tocan muchísimas canciones",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i02_do_y_sol_izquierda",
+      "right": "{bpm=60} C4+E4+G4:1/2@1.3.5 C4+F4+A4:1/2@1.2.4 B3+D4+G4:1/2@1.2.5 C4+E4+G4:1/2@1.3.5 C4+E4+G4:1/4 C4+E4+G4:1/4 C4+F4+A4:1/4 C4+F4+A4:1/4 B3+D4+G4:1/4 B3+D4+G4:1/4 C4+E4+G4:1/2 C4+F4+A4:1/2 C4+E4+G4:1/2 B3+D4+G4:1/2 C4+E4+G4:1/2 C4+E4+G4:1/2 C4+F4+A4:1/2 B3+D4+G4:1/2 B3+D4+G4:1/2 C4+E4+G4:1",
+      "left": "C3:1/2 F2:1/2 G2:1/2 C3:1/2 C3:1/2 F2:1/2 G2:1/4 G2:1/4 C3:1/2 F2:1/2 C3:1/2 G2:1/2 C3:1/2 C3:1/2 F2:1/2 G2:1 C3:1"
+    },
+    {
+      "id": "i09_movimiento_contrario",
+      "title": "Como un espejo",
+      "subtitle": "Una mano sube mientras la otra baja",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i03_tres_acordes",
+      "right": "{bpm=66} C4:1/4@1 D4:1/4 E4:1/4 F4:1/4 G4:1/2 G4:1/2 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/2 C4:1/2 C4:1/4 E4:1/4 D4:1/4 F4:1/4 E4:1/4 G4:1/4 E4:1/2 G4:1/4 E4:1/4 F4:1/4 D4:1/4 E4:1/4 C4:1/4 D4:1/2 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1",
+      "left": "C3:1/4@1 B2:1/4 A2:1/4 G2:1/4 F2:1/2 F2:1/2 F2:1/4 G2:1/4 A2:1/4 B2:1/4 C3:1/2 C3:1/2 C3:1/4 A2:1/4 B2:1/4 G2:1/4 A2:1/4 F2:1/4 A2:1/2 F2:1/4 A2:1/4 G2:1/4 B2:1/4 A2:1/4 C3:1/4 B2:1/2 C3:1/4 B2:1/4 A2:1/4 G2:1/4 F2:1/4 G2:1/4 A2:1/4 B2:1/4 C3:1"
+    },
+    {
+      "id": "i10_paralelo_en_sol",
+      "title": "Paralelo en Sol",
+      "subtitle": "Las dos manos en posición de Sol",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i09_movimiento_contrario",
+      "right": "{bpm=66} G4:1/4 A4:1/4 B4:1/4 C5:1/4 D5:1/2 D5:1/2 D5:1/4 C5:1/4 B4:1/4 A4:1/4 G4:1/2 G4:1/2 G4:1/4 B4:1/4 A4:1/4 C5:1/4 B4:1/4 D5:1/4 B4:1/2 A4:1/4 B4:1/4 G4:1/4 A4:1/4 B4:1/4 A4:1/4 G4:1/2 D5:1/4 B4:1/4 C5:1/4 A4:1/4 B4:1/4 G4:1/4 A4:1/2 G4:1",
+      "left": "G2:1/4 A2:1/4 B2:1/4 C3:1/4 D3:1/2 D3:1/2 D3:1/4 C3:1/4 B2:1/4 A2:1/4 G2:1/2 G2:1/2 G2:1/4 B2:1/4 A2:1/4 C3:1/4 B2:1/4 D3:1/4 B2:1/2 A2:1/4 B2:1/4 G2:1/4 A2:1/4 B2:1/4 A2:1/4 G2:1/2 D3:1/4 B2:1/4 C3:1/4 A2:1/4 B2:1/4 G2:1/4 A2:1/2 G2:1"
+    },
+    {
+      "id": "i04_vals",
+      "title": "El vals",
+      "subtitle": "Un-dos-tres: la izquierda hace «bum-chis-chis»",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i10_paralelo_en_sol",
+      "right": "{bpm=96} E4:3/4 G4:3/4 F4:3/4 D4:3/4 D4:3/4 F4:3/4 E4:3/4 C4:3/4 E4:1/4 F4:1/4 G4:1/4 A4:3/4 G4:3/4 E4:3/4 F4:1/4 E4:1/4 D4:1/4 G4:3/4 E4:3/4 C4:3/4",
+      "left": "C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 F2:1/4 A2+C3:1/4 A2+C3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4"
+    },
+    {
+      "id": "i05_acordes_derecha",
+      "title": "Acordes en la derecha",
+      "subtitle": "Do, Fa y Sol con la mano derecha y bajos en la izquierda",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i04_vals",
+      "right": "{bpm=72} C4+E4+G4:1/4 C4+E4+G4:1/4 C4+F4+A4:1/4 C4+F4+A4:1/4 C4+E4+G4:1/2 B3+D4+G4:1/2 C4+E4+G4:1/4 C4+E4+G4:1/4 B3+D4+G4:1/4 B3+D4+G4:1/4 C4+E4+G4:1 C4+F4+A4:1/2 C4+F4+A4:1/2 C4+E4+G4:1/2 C4+E4+G4:1/2 B3+D4+G4:1/4 B3+D4+G4:1/4 B3+D4+G4:1/2 C4+E4+G4:1",
+      "left": "C3:1/2 F2:1/2 C3:1/2 G2:1/2 C3:1/2 G2:1/2 C3:1 F2:1/2 F2:1/2 C3:1/2 C3:1/2 G2:1/2 G2:1/2 C3:1"
+    },
+    {
+      "id": "i06_inversiones",
+      "title": "Acordes que dan la vuelta",
+      "subtitle": "Las tres posiciones del acorde de Do",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i05_acordes_derecha",
+      "right": "{bpm=60} C4+E4+G4:1/2@1.3.5 E4+G4+C5:1/2@1.2.5 G4+C5+E5:1/2@1.3.5 E4+G4+C5:1/2@1.2.5 C4+E4+G4:1@1.3.5 _:1 C4+E4+G4:1/4 E4+G4+C5:1/4 G4+C5+E5:1/4 E4+G4+C5:1/4 C4+E4+G4:1/2 _:1/2 G4+C5+E5:1/2 E4+G4+C5:1/2 C4+E4+G4:1/2 E4+G4+C5:1/2 G4+C5+E5:1 C4+E4+G4:1",
+      "left": "C3:1 C3:1 C3:1 G2:1 C3:1 C3:1 C3:1 G2:1 C3:1 C3:1"
+    },
+    {
+      "id": "i07_arpegios",
+      "title": "Arpegios",
+      "subtitle": "Las notas del acorde una detrás de otra",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i06_inversiones",
+      "right": "{bpm=64} C4:1/8@1 E4:1/8@2 G4:1/8@3 C5:1/8@5 G4:1/8@3 E4:1/8@2 C4:1/4@1 C4:1/8 E4:1/8 G4:1/8 C5:1/8 G4:1/8 E4:1/8 C4:1/4 B3:1/8@1 D4:1/8@2 G4:1/8@4 B4:1/8@5 G4:1/8@4 D4:1/8@2 B3:1/4@1 C4:1/8@1 F4:1/8@2 A4:1/8@4 C5:1/8@5 A4:1/8@4 F4:1/8@2 C4:1/4@1 C4:1/8 E4:1/8 G4:1/8 C5:1/8 E5:1/4 C5:1/4 G4:1/8 E4:1/8 C4:1/8 E4:1/8 G4:1/4 _:1/4 B3:1/8 D4:1/8 G4:1/8 D4:1/8 C4:1/2",
+      "left": "C3:1/2 C3:1/2 C3:1/2 C3:1/2 G2:1/2 G2:1/2 F2:1/2 F2:1/2 C3:1/2 C3:1/2 C3:1/2 C3:1/2 G2:1/4 G2:1/4 C3:1/2"
+    },
+    {
+      "id": "i19_terceras",
+      "title": "Terceras",
+      "subtitle": "Dos notas a la vez con la mano derecha",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i07_arpegios",
+      "right": "{bpm=66} C4+E4:1/4@1.3 D4+F4:1/4@2.4 E4+G4:1/4@3.5 D4+F4:1/4@2.4 C4+E4:1/2@1.3 C4+E4:1/2 E4+G4:1/4 D4+F4:1/4 C4+E4:1/4 D4+F4:1/4 E4+G4:1/2 E4+G4:1/2 C4+E4:1/4 E4+G4:1/4 D4+F4:1/4 D4+F4:1/4 C4+E4:1/2 _:1/2 E4+G4:1/4 E4+G4:1/4 D4+F4:1/4 D4+F4:1/4 C4+E4:1",
+      "left": "C3:1 C3:1 C3:1 C3:1 C3:1/2 G2:1/2 C3:1/2 _:1/2 G2:1 C3:1"
+    },
+    {
+      "id": "i14_bajo_y_melodia",
+      "title": "Bajo y melodía",
+      "subtitle": "La izquierda marca el paso y la derecha canta",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i19_terceras",
+      "right": "{bpm=72} E4:1/4 F4:1/4 G4:1/4 E4:1/4 C5:1/2 G4:1/2 A4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1/2 _:1/2 F4:1/4 G4:1/4 A4:1/4 F4:1/4 D5:1/2 A4:1/2 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/2 _:1/2 E4:1/4 G4:1/4 C5:1/4 G4:1/4 F4:1/4 A4:1/4 G4:1/2 F4:1/4 E4:1/4 D4:1/4 B3:1/4 C4:1",
+      "left": "C3:1/2 G2:1/2 C3:1/2 E3:1/2 F2:1/2 A2:1/2 G2:1/2 B2:1/2 F2:1/2 A2:1/2 F2:1/2 D3:1/2 G2:1/2 B2:1/2 C3:1/2 G2:1/2 C3:1/2 E3:1/2 F2:1/2 C3:1/2 G2:1/2 G2:1/2 C3:1"
+    },
+    {
+      "id": "i17_quintas",
+      "title": "Quintas en la izquierda",
+      "subtitle": "Do y Sol a la vez: un sonido muy fuerte",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i14_bajo_y_melodia",
+      "right": "{bpm=72} E4:1/4 E4:1/4 F4:1/4 G4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/4 C4:1/4 D4:1/4 E4:1/4 E4:3/8 D4:1/8 D4:1/2 E4:1/4 E4:1/4 F4:1/4 G4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/4 C4:1/4 D4:1/4 E4:1/4 D4:3/8 C4:1/8 C4:1/2",
+      "left": "C3+G3:1/2@5.1 C3+G3:1/2 G2+D3:1/2@5.1 G2+D3:1/2 C3+G3:1/2 C3+G3:1/2 G2+D3:1 C3+G3:1/2 C3+G3:1/2 G2+D3:1/2 G2+D3:1/2 C3+G3:1/2 G2+D3:1/2 C3+G3:1"
+    },
+    {
+      "id": "i08_bajo_alberti",
+      "title": "El bajo de Alberti",
+      "subtitle": "Do-Sol-Mi-Sol: el acompañamiento de los clásicos",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i17_quintas",
+      "right": "{bpm=72} E4:1/2 G4:1/2 F4:1/2 D4:1/2 E4:1/4 F4:1/4 G4:1/4 E4:1/4 D4:1 C4:1/2 E4:1/2 D4:1/2 B3:1/2 C4:1/4 D4:1/4 E4:1/4 D4:1/4 C4:1",
+      "left": "C3:1/8@5 G3:1/8@1 E3:1/8@3 G3:1/8@1 C3:1/8 G3:1/8 E3:1/8 G3:1/8 B2:1/8@5 G3:1/8@1 D3:1/8@3 G3:1/8@1 B2:1/8 G3:1/8 D3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 B2:1/8 G3:1/8 D3:1/8 G3:1/8 B2:1/8 G3:1/8 D3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 B2:1/8 G3:1/8 D3:1/8 G3:1/8 B2:1/8 G3:1/8 D3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 B2:1/8 G3:1/8 D3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/2"
+    },
+    {
+      "id": "i16_acordes_rotos_izquierda",
+      "title": "Acordes rotos",
+      "subtitle": "La izquierda toca el acorde nota a nota",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i08_bajo_alberti",
+      "right": "{bpm=72} G4:1/2 E4:1/2 F4:1/2 D4:1/2 E4:1/4 F4:1/4 G4:1/4 E4:1/4 D4:1 E4:1/2 G4:1/2 A4:1/2 F4:1/2 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1",
+      "left": "C3:1/8@5 E3:1/8@3 G3:1/8@1 E3:1/8 C3:1/8 E3:1/8 G3:1/8 E3:1/8 B2:1/8 D3:1/8 G3:1/8 D3:1/8 B2:1/8 D3:1/8 G3:1/8 D3:1/8 C3:1/8 E3:1/8 G3:1/8 E3:1/8 C3:1/8 E3:1/8 G3:1/8 E3:1/8 B2:1/8 D3:1/8 G3:1/8 D3:1/8 B2:1/8 D3:1/8 G3:1/8 D3:1/8 C3:1/8 E3:1/8 G3:1/8 E3:1/8 C3:1/8 E3:1/8 G3:1/8 E3:1/8 C3:1/8 F3:1/8 A3:1/8 F3:1/8 C3:1/8 F3:1/8 A3:1/8 F3:1/8 C3:1/8 E3:1/8 G3:1/8 E3:1/8 B2:1/8 D3:1/8 G3:1/8 D3:1/8 C3:1/2 C3:1/2"
+    },
+    {
+      "id": "i11_la_menor",
+      "title": "La menor",
+      "subtitle": "Un acorde triste y bonito: La-Do-Mi",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i16_acordes_rotos_izquierda",
+      "right": "{bpm=66} A4:1/4 C5:1/4 E5:1/4 C5:1/4 A4:1/2 E4:1/2 D5:1/4 C5:1/4 B4:1/4 A4:1/4 G#4:1/2 E4:1/2 A4:1/4 B4:1/4 C5:1/4 D5:1/4 E5:1/2 C5:1/2 B4:1/4 A4:1/4 G#4:1/4 B4:1/4 A4:1",
+      "left": "A2+C3+E3:1@5.3.1 A2+C3+E3:1 D3+F3+A3:1@5.3.1 E3+G#3+B3:1@5.3.1 A2+C3+E3:1 D3+F3+A3:1 E3+G#3+B3:1 A2+C3+E3:1"
+    },
+    {
+      "id": "i12_escala_de_sol",
+      "title": "La escala de Sol",
+      "subtitle": "Con un Fa sostenido y el pulgar por debajo",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i11_la_menor",
+      "right": "{bpm=60} G4:1/4@1 A4:1/4@2 B4:1/4@3 C5:1/4@1 D5:1/4@2 E5:1/4@3 F#5:1/4@4 G5:1/4@5 G5:1/4@5 F#5:1/4@4 E5:1/4@3 D5:1/4@2 C5:1/4@1 B4:1/4@3 A4:1/4@2 G4:1/4@1 G4:1/8@1 A4:1/8@2 B4:1/4@3 C5:1/8@1 D5:1/8@2 E5:1/4@3 F#5:1/8@4 G5:1/8@5 G5:3/4@5 F#5:1/8@4 E5:1/8@3 D5:1/4@2 C5:1/8@1 B4:1/8@3 A4:1/4@2 G4:1@1",
+      "left": "G3+B3+D4:1/2@5.3.1 G3+B3+D4:1/2 C3+E3+G3:1/2@5.3.1 D3+F#3+A3:1/2@5.3.1 G3+B3+D4:1/2 D3+F#3+A3:1/2 C3+E3+G3:1/2 G3+B3+D4:1/2 G3+B3+D4:1/2 C3+E3+G3:1/2 D3+F#3+A3:1/2 G3+B3+D4:1/2 D3+F#3+A3:1/2 D3+F#3+A3:1/2 G3+B3+D4:1"
+    },
+    {
+      "id": "i13_escala_de_fa",
+      "title": "La escala de Fa",
+      "subtitle": "Con un Si bemol: dedos 1-2-3-4 y el pulgar por debajo",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i12_escala_de_sol",
+      "right": "{bpm=60} F4:1/4@1 G4:1/4@2 A4:1/4@3 Bb4:1/4@4 C5:1/4@1 D5:1/4@2 E5:1/4@3 F5:1/4@4 F5:1/4@4 E5:1/4@3 D5:1/4@2 C5:1/4@1 Bb4:1/4@4 A4:1/4@3 G4:1/4@2 F4:1/4@1 F4:1/4 A4:1/4 G4:1/4 Bb4:1/4 A4:1/4 C5:1/4 Bb4:1/4 D5:1/4 C5:1/4 A4:1/4 Bb4:1/4 G4:1/4 F4:1",
+      "left": "F2+A2+C3:1/2@5.3.1 F2+A2+C3:1/2 Bb2+D3+F3:1/2@5.3.1 C3+E3+G3:1/2@5.3.1 F2+A2+C3:1/2 C3+E3+G3:1/2 Bb2+D3+F3:1/2 F2+A2+C3:1/2 F2+A2+C3:1/2 Bb2+D3+F3:1/2 C3+E3+G3:1/2 C3+E3+G3:1/2 C3+E3+G3:1/2 C3+E3+G3:1/2 F2+A2+C3:1"
+    },
+    {
+      "id": "i15_corcheas_dos_manos",
+      "title": "Corcheas a dos manos",
+      "subtitle": "La derecha corre y la izquierda va despacio",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i13_escala_de_fa",
+      "right": "{bpm=60} C4:1/8 D4:1/8 E4:1/8 F4:1/8 G4:1/8 F4:1/8 E4:1/8 D4:1/8 C4:1/8 E4:1/8 G4:1/8 E4:1/8 C4:1/2 D4:1/8 E4:1/8 F4:1/8 G4:1/8 A4:1/8 G4:1/8 F4:1/8 E4:1/8 D4:1/8 F4:1/8 A4:1/8 F4:1/8 D4:1/2 E4:1/8 F4:1/8 G4:1/8 A4:1/8 B4:1/8 A4:1/8 G4:1/8 F4:1/8 E4:1/8 G4:1/8 B4:1/8 G4:1/8 E4:1/2 C4:1/8 E4:1/8 G4:1/8 C5:1/8 B4:1/8 G4:1/8 F4:1/8 D4:1/8 C4:1",
+      "left": "C3:1 C3:1/2 C3:1/2 D3:1 D3:1/2 D3:1/2 E3:1 E3:1/2 E3:1/2 C3:1/2 G2:1/2 C3:1"
+    },
+    {
+      "id": "i18_progresion_pop",
+      "title": "Cuatro acordes famosos",
+      "subtitle": "Do, Sol, La menor y Fa: los acordes de muchas canciones",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i15_corcheas_dos_manos",
+      "right": "{bpm=72} C4+E4+G4:1@1.3.5 B3+D4+G4:1@1.2.5 C4+E4+A4:1@1.2.5 C4+F4+A4:1@1.2.4 C4+E4+G4:1/2 C4+E4+G4:1/2 B3+D4+G4:1/2 B3+D4+G4:1/2 C4+E4+A4:1/2 C4+E4+A4:1/2 C4+F4+A4:1/2 C4+F4+A4:1/2 C4+E4+G4:1/4 C4+E4+G4:1/4 C4+E4+G4:1/2 B3+D4+G4:1/4 B3+D4+G4:1/4 B3+D4+G4:1/2 C4+E4+A4:1/4 C4+E4+A4:1/4 C4+E4+A4:1/2 C4+F4+A4:1/4 C4+F4+A4:1/4 C4+F4+A4:1/2 C4+E4+G4:1",
+      "left": "C3:1 G2:1 A2:1 F2:1 C3:1 G2:1 A2:1 F2:1 C3:1 G2:1 A2:1 F2:1 C3:1"
+    },
+    {
+      "id": "i20_repaso_intermedio",
+      "title": "Gran repaso intermedio",
+      "subtitle": "Melodía, acordes y bajos en una pieza larga",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Intermedios",
+      "requires": "i18_progresion_pop",
+      "right": "{bpm=72} E4:1/4 E4:1/4 F4:1/4 G4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/4 C4:1/4 D4:1/4 E4:1/4 E4:3/8 D4:1/8 D4:1/2 C4+E4+G4:1/2 C4+F4+A4:1/2 B3+D4+G4:1/2 C4+E4+G4:1/2 G4:1/8 A4:1/8 G4:1/8 F4:1/8 E4:1/4 C4:1/4 D4:1/4 G3:1/4 C4:1/2 C4:1/8 E4:1/8 G4:1/8 C5:1/8 B4:1/8 G4:1/8 F4:1/8 D4:1/8 C4:1",
+      "left": "C3+G3:1 G2+D3:1 C3+G3:1 G2+D3:1 C3:1/2 F2:1/2 G2:1/2 C3:1/2 C3+E3+G3:1/2 C3+E3+G3:1/2 G2+B2+D3:1/2 G2+B2+D3:1/2 C3:1 C3:1"
+    },
+    {
+      "id": "a01_escala_dos_octavas",
+      "title": "Escala de Do en dos octavas",
+      "subtitle": "El pulgar pasa dos veces por debajo",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Avanzados",
+      "requires": "i08_bajo_alberti",
+      "right": "{bpm=60} C4:1/8@1 D4:1/8@2 E4:1/8@3 F4:1/8@1 G4:1/8@2 A4:1/8@3 B4:1/8@4 C5:1/8@1 D5:1/8@2 E5:1/8@3 F5:1/8@1 G5:1/8@2 A5:1/8@3 B5:1/8@4 C6:1/4@5 B5:1/8@4 A5:1/8@3 G5:1/8@2 F5:1/8@1 E5:1/8@3 D5:1/8@2 C5:1/8@1 B4:1/8@4 A4:1/8@3 G4:1/8@2 F4:1/8@1 E4:1/8@3 D4:1/8@2 C4:1/4@1 _:1/8 C4:1/8@1 E4:1/8@3 D4:1/8@2 F4:1/8@1 E4:1/8@3 G4:1/8@2 F4:1/8@1 A4:1/8@3 G4:1/8@2 B4:1/8@4 A4:1/8@3 C5:1/8@1 B4:1/8@4 D5:1/8@2 C5:1/4@1 C5:1@1",
+      "left": null
+    },
+    {
+      "id": "a02_escala_manos_juntas",
+      "title": "Escala con las dos manos",
+      "subtitle": "La escala de Do con las dos manos a la vez",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Avanzados",
+      "requires": "a01_escala_dos_octavas",
+      "right": "{bpm=60} C4:1/4@1 D4:1/4@2 E4:1/4@3 F4:1/4@1 G4:1/4@2 A4:1/4@3 B4:1/4@4 C5:1/4@5 C5:1/4@5 B4:1/4@4 A4:1/4@3 G4:1/4@2 F4:1/4@1 E4:1/4@3 D4:1/4@2 C4:1/4@1 C4:1/8@1 D4:1/8@2 E4:1/8@3 F4:1/8@1 G4:1/8@2 A4:1/8@3 B4:1/8@4 C5:1/8@5 C5:1/8@5 B4:1/8@4 A4:1/8@3 G4:1/8@2 F4:1/8@1 E4:1/8@3 D4:1/8@2 C4:1/8@1 C4:1",
+      "left": "C3:1/4@5 D3:1/4@4 E3:1/4@3 F3:1/4@2 G3:1/4@1 A3:1/4@3 B3:1/4@2 C4:1/4@1 C4:1/4@1 B3:1/4@2 A3:1/4@3 G3:1/4@1 F3:1/4@2 E3:1/4@3 D3:1/4@4 C3:1/4@5 C3:1/8@5 D3:1/8@4 E3:1/8@3 F3:1/8@2 G3:1/8@1 A3:1/8@3 B3:1/8@2 C4:1/8@1 C4:1/8@1 B3:1/8@2 A3:1/8@3 G3:1/8@1 F3:1/8@2 E3:1/8@3 D3:1/8@4 C3:1/8@5 C3:1"
+    },
+    {
+      "id": "a03_escala_de_re",
+      "title": "La escala de Re",
+      "subtitle": "Dos sostenidos: Fa# y Do#",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Avanzados",
+      "requires": "a02_escala_manos_juntas",
+      "right": "{bpm=60} D4:1/4@1 E4:1/4@2 F#4:1/4@3 G4:1/4@1 A4:1/4@2 B4:1/4@3 C#5:1/4@4 D5:1/4@5 D5:1/4@5 C#5:1/4@4 B4:1/4@3 A4:1/4@2 G4:1/4@1 F#4:1/4@3 E4:1/4@2 D4:1/4@1 D4:1/8 F#4:1/8 A4:1/8 D5:1/8 C#5:1/8 A4:1/8 E4:1/8 C#4:1/8 D4:1/2 _:1/2 F#4:1/4 A4:1/4 G4:1/4 B4:1/4 A4:1/4 D5:1/4 C#5:1/4 E5:1/4 D5:1",
+      "left": "D3+F#3+A3:1/2@5.3.1 D3+F#3+A3:1/2 G2+B2+D3:1/2@5.3.1 A2+C#3+E3:1/2@5.3.1 D3+F#3+A3:1/2 A2+C#3+E3:1/2 G2+B2+D3:1/2 D3+F#3+A3:1/2 D3:1/2 A2:1/2 D3:1/2 _:1/2 D3+F#3+A3:1/2 G2+B2+D3:1/2 A2+C#3+E3:1/2 A2+C#3+E3:1/2 D3+F#3+A3:1"
+    },
+    {
+      "id": "a04_arpegios_largos",
+      "title": "Arpegios largos",
+      "subtitle": "Arpegios de dos octavas pasando el pulgar",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Avanzados",
+      "requires": "a03_escala_de_re",
+      "right": "{bpm=56} C4:1/8@1 E4:1/8@2 G4:1/8@3 C5:1/8@1 E5:1/8@2 G5:1/8@3 C6:1/4@5 G5:1/8@3 E5:1/8@2 C5:1/8@1 G4:1/8@3 E4:1/8@2 C4:1/4@1 _:1/8 A3:1/8@1 C4:1/8@2 E4:1/8@3 A4:1/8@1 C5:1/8@2 E5:1/8@3 A5:1/4@5 E5:1/8@3 C5:1/8@2 A4:1/8@1 E4:1/8@3 C4:1/8@2 A3:1/4@1 _:1/8 F3:1/8@1 A3:1/8@2 C4:1/8@3 F4:1/8@1 A4:1/8@2 C5:1/8@3 F5:1/4@5 C5:1/8@3 A4:1/8@2 F4:1/8@1 C4:1/8@3 A3:1/8@2 F3:1/4@1 _:1/8 G3:1/8@1 B3:1/8@2 D4:1/8@3 G4:1/8@1 B4:1/8@2 D5:1/8@3 G5:1/4@5 D5:1/8@3 B4:1/8@2 G4:1/8@1 D4:1/8@3 B3:1/8@2 G3:1/4@1 _:1/8 C4:1",
+      "left": null
+    },
+    {
+      "id": "a06_la_menor_armonica",
+      "title": "La menor armónica",
+      "subtitle": "La escala con Sol sostenido: suena a Oriente",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Avanzados",
+      "requires": "a04_arpegios_largos",
+      "right": "{bpm=60} A4:1/4@1 B4:1/4@2 C5:1/4@3 D5:1/4@1 E5:1/4@2 F5:1/4@3 G#5:1/4@4 A5:1/4@5 A5:1/4@5 G#5:1/4@4 F5:1/4@3 E5:1/4@2 D5:1/4@1 C5:1/4@3 B4:1/4@2 A4:1/4@1 E5:1/4 C5:1/4 A4:1/4 C5:1/4 E5:1/4 F5:1/4 E5:1/2 D5:1/4 B4:1/4 G#4:1/4 B4:1/4 A4:1",
+      "left": "A2+C3+E3:1/2@5.3.1 A2+C3+E3:1/2 D3+F3+A3:1/2@5.3.1 E3+G#3+B3:1/2@5.3.1 A2+C3+E3:1/2 E3+G#3+B3:1/2 D3+F3+A3:1/2 A2+C3+E3:1/2 A2+C3+E3:1/2 A2+C3+E3:1/2 D3+F3+A3:1/2 D3+F3+A3:1/2 E3+G#3+B3:1/2 E3+G#3+B3:1/2 A2+C3+E3:1"
+    },
+    {
+      "id": "a07_cromatica",
+      "title": "La escala cromática",
+      "subtitle": "Todas las teclas, blancas y negras, una detrás de otra",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Avanzados",
+      "requires": "a06_la_menor_armonica",
+      "right": "{bpm=56} C4:1/8@1 C#4:1/8@3 D4:1/8@1 D#4:1/8@3 E4:1/8@1 F4:1/8@2 F#4:1/8@3 G4:1/8@1 G#4:1/8@3 A4:1/8@1 A#4:1/8@3 B4:1/8@1 C5:1/4@2 _:1/4 C5:1/8@2 B4:1/8@1 A#4:1/8@3 A4:1/8@1 G#4:1/8@3 G4:1/8@1 F#4:1/8@3 F4:1/8@2 E4:1/8@1 D#4:1/8@3 D4:1/8@1 C#4:1/8@3 C4:1/4@1 _:1/4 E4:1/8@1 F4:1/8@2 F#4:1/8@3 G4:1/8@1 G#4:1/8@3 A4:1/8@1 G#4:1/8@3 G4:1/8@1 F#4:1/8@3 F4:1/8@2 E4:3/4@1 C4:1",
+      "left": "C3:1 C3:1/2 _:1/2 C3:1 C3:1/2 _:1/2 C3:1 C3:1 C3:1"
+    },
+    {
+      "id": "a08_acordes_encadenados",
+      "title": "Acordes encadenados",
+      "subtitle": "Cambiar de acorde moviendo las manos lo mínimo",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Avanzados",
+      "requires": "a07_cromatica",
+      "right": "{bpm=60} C4+E4+G4:1/2@1.3.5 C4+F4+A4:1/2@1.2.4 B3+D4+G4:1/2@1.2.5 C4+E4+G4:1/2@1.3.5 E4+G4+C5:1/2@1.2.5 F4+A4+C5:1/2@1.2.5 D4+G4+B4:1/2@1.3.5 E4+G4+C5:1/2@1.2.5 G4+C5+E5:1/2@1.3.5 A4+C5+F5:1/2@1.2.5 G4+B4+D5:1/2@1.2.4 G4+C5+E5:1/2@1.3.5 C4+E4+A4:1/2@1.2.5 C4+F4+A4:1/2@1.2.4 B3+D4+G4:1/2@1.2.5 C4+E4+G4:1@1.3.5",
+      "left": "C3:1@5 F2:1/2@5 G2:1/2@5 C3+E3+G3:1/2@5.3.1 F2+A2+C3:1/2@5.3.1 G2+B2+D3:1/2@5.3.1 C3+E3+G3:1/2 C3:1/2 F2:1/2 G2:1/2 C3:1/2 A2:1/2 F2:1/2 G2:1/2 C3:1"
+    },
+    {
+      "id": "a09_semicorcheas",
+      "title": "Semicorcheas",
+      "subtitle": "Cuatro notas en un pulso: dedos muy ágiles",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Avanzados",
+      "requires": "a08_acordes_encadenados",
+      "right": "{bpm=56} C4:1/16@1 D4:1/16@2 E4:1/16@3 F4:1/16@4 G4:1/4@5 G4:1/16@5 F4:1/16@4 E4:1/16@3 D4:1/16@2 C4:1/4@1 C4:1/16 D4:1/16 E4:1/16 D4:1/16 E4:1/16 F4:1/16 G4:1/16 F4:1/16 E4:1/16 D4:1/16 C4:1/16 D4:1/16 E4:1/4 G4:1/16 F4:1/16 E4:1/16 F4:1/16 G4:1/16 F4:1/16 E4:1/16 D4:1/16 C4:1/16 D4:1/16 E4:1/16 D4:1/16 C4:1/4 E4:1/16 F4:1/16 G4:1/16 E4:1/16 F4:1/16 G4:1/16 F4:1/16 D4:1/16 C4:1/2",
+      "left": "C3:1/2 C3:1/2 C3:1/2 C3:1/2 C3:1/2 C3:1/2 C3:1/2 C3:1/2"
+    },
+    {
+      "id": "a05_sonatina",
+      "title": "Pequeña sonatina",
+      "subtitle": "Melodía con bajo de Alberti, como los clásicos",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Avanzados",
+      "requires": "a09_semicorcheas",
+      "right": "{bpm=80} C5:1/2 E5:1/4 C5:1/4 G4:1/2 G4:1/2 A4:1/4 C5:1/4 B4:1/4 A4:1/4 G4:1 F4:1/4 A4:1/4 G4:1/4 F4:1/4 E4:1/4 G4:1/4 C5:1/4 E5:1/4 D5:1/4 C5:1/4 B4:1/4 D5:1/4 C5:1 E5:1/8 D5:1/8 C5:1/8 B4:1/8 A4:1/8 G4:1/8 F4:1/8 E4:1/8 D4:1/4 G4:1/4 B4:1/4 D5:1/4 C5:1/2 G4:1/2 C5:1",
+      "left": "C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 F3:1/8 A3:1/8 C4:1/8 A3:1/8 F3:1/8 A3:1/8 C4:1/8 A3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 B2:1/8 G3:1/8 D3:1/8 G3:1/8 B2:1/8 G3:1/8 D3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 G3:1/8 D3:1/8 G3:1/8 G2:1/8 G3:1/8 D3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 F2:1/8 A2:1/8 C3:1/8 A2:1/8 F2:1/8 A2:1/8 C3:1/8 A2:1/8 G2:1/8 B2:1/8 D3:1/8 B2:1/8 G2:1/8 B2:1/8 D3:1/8 B2:1/8 C3:1/2 G2:1/2 C3:1"
+    },
+    {
+      "id": "a10_gran_final",
+      "title": "Gran final",
+      "subtitle": "La pieza más difícil: escalas, acordes y arpegios",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Avanzados",
+      "requires": "a05_sonatina",
+      "right": "{bpm=60} C4:1/8@1 D4:1/8@2 E4:1/8@3 F4:1/8@1 G4:1/8@2 A4:1/8@3 B4:1/8@4 C5:1/8@5 C5+E5+G5:1/2@1.3.5 G4+C5+E5:1/2@1.3.5 A4:1/8@1 B4:1/8@2 C5:1/8@3 D5:1/8@1 E5:1/8@2 F5:1/8@3 G5:1/8@4 A5:1/8@5 A4+C5+F5:1/2@1.2.5 G4+B4+D5:1/2@1.2.4 E5:1/8 D5:1/8 C5:1/8 B4:1/8 A4:1/8 G4:1/8 F4:1/8 E4:1/8 D4:1/4 G4:1/4 B4:1/4 D5:1/4 C5:1/8 G4:1/8 E4:1/8 G4:1/8 C5:1/8 E5:1/8 G5:1/8 E5:1/8 C5:1",
+      "left": "C3+E3+G3:1@5.3.1 C3:1 F3+A3+C4:1@5.3.1 B2+D3+G3:1@5.3.1 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 B2:1/8 G3:1/8 D3:1/8 G3:1/8 B2:1/8 G3:1/8 D3:1/8 G3:1/8 C3:1/2 G3:1/2 C3:1"
     },
     {
       "left": null,
@@ -59,7 +669,7 @@
       "id": "s03_estrellita",
       "right": "{bpm=80} C4:1/4 C4:1/4 G4:1/4 G4:1/4 A4:1/4 A4:1/4 G4:1/2 F4:1/4 F4:1/4 E4:1/4 E4:1/4 D4:1/4 D4:1/4 C4:1/2 G4:1/4 G4:1/4 F4:1/4 F4:1/4 E4:1/4 E4:1/4 D4:1/2 G4:1/4 G4:1/4 F4:1/4 F4:1/4 E4:1/4 E4:1/4 D4:1/2 C4:1/4 C4:1/4 G4:1/4 G4:1/4 A4:1/4 A4:1/4 G4:1/2 F4:1/4 F4:1/4 E4:1/4 E4:1/4 D4:1/4 D4:1/4 C4:1/2",
       "title": "Estrellita, ¿dónde estás?",
-      "group": "Canciones infantiles",
+      "group": "Infantiles",
       "requires": "l05_cinco_notas",
       "lyrics": [
         "Es-",
@@ -104,7 +714,8 @@
         "quién",
         "se-",
         "rás"
-      ]
+      ],
+      "section": "canciones"
     },
     {
       "left": null,
@@ -113,7 +724,7 @@
       "id": "s15_pollitos",
       "right": "{bpm=90} D4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2 G4:1/2 A4:1/4 A4:1/4 A4:1/4 A4:1/4 G4:1/2 G4:1/2 F4:1/4 F4:1/4 F4:1/4 F4:1/4 E4:1/2 E4:1/2 D4:1/4 D4:1/4 D4:1/4 D4:1/4 C4:1/2 C4:1/2",
       "title": "Los pollitos dicen",
-      "group": "Canciones infantiles",
+      "group": "Infantiles",
       "requires": "l05_cinco_notas",
       "lyrics": [
         "Los",
@@ -140,7 +751,8 @@
         "nen",
         "frí-",
         "o"
-      ]
+      ],
+      "section": "canciones"
     },
     {
       "left": null,
@@ -149,7 +761,7 @@
       "id": "s02_frere_jacques",
       "right": "{bpm=90} C4:1/4 D4:1/4 E4:1/4 C4:1/4 C4:1/4 D4:1/4 E4:1/4 C4:1/4 E4:1/4 F4:1/4 G4:1/2 E4:1/4 F4:1/4 G4:1/2 G4:1/8 A4:1/8 G4:1/8 F4:1/8 E4:1/4 C4:1/4 G4:1/8 A4:1/8 G4:1/8 F4:1/8 E4:1/4 C4:1/4 C4:1/4 G3:1/4 C4:1/2 C4:1/4 G3:1/4 C4:1/2",
       "title": "Los colores (Fray Santiago)",
-      "group": "Canciones infantiles",
+      "group": "Infantiles",
       "requires": "l02_mi_fa_sol",
       "lyrics": [
         "Fray",
@@ -184,7 +796,8 @@
         "Din",
         "don",
         "dan"
-      ]
+      ],
+      "section": "canciones"
     },
     {
       "left": null,
@@ -193,7 +806,7 @@
       "id": "s01_mary",
       "right": "{bpm=80} E4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/4 E4:1/4 E4:1/2 D4:1/4 D4:1/4 D4:1/2 E4:1/4 G4:1/4 G4:1/2 E4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/4 E4:1/4 E4:1/4 E4:1/4 D4:1/4 D4:1/4 E4:1/4 D4:1/4 C4:1",
       "title": "Mary Had a Little Lamb",
-      "group": "Canciones infantiles",
+      "group": "Infantiles",
       "requires": "l02_mi_fa_sol",
       "lyrics": [
         "Ma-",
@@ -222,7 +835,8 @@
         "white",
         "as",
         "snow"
-      ]
+      ],
+      "section": "canciones"
     },
     {
       "left": null,
@@ -231,7 +845,7 @@
       "id": "s06_hot_cross_buns",
       "right": "{bpm=80} E4:1/4 D4:1/4 C4:1/2 E4:1/4 D4:1/4 C4:1/2 C4:1/8 C4:1/8 C4:1/8 C4:1/8 D4:1/8 D4:1/8 D4:1/8 D4:1/8 E4:1/4 D4:1/4 C4:1/2",
       "title": "Hot Cross Buns",
-      "group": "Canciones infantiles",
+      "group": "Infantiles",
       "requires": "l01_do_re_mi",
       "lyrics": [
         "Hot",
@@ -251,7 +865,8 @@
         "hot",
         "cross",
         "buns"
-      ]
+      ],
+      "section": "canciones"
     },
     {
       "left": null,
@@ -260,8 +875,9 @@
       "id": "s07_au_clair",
       "right": "{bpm=80} C4:1/4 C4:1/4 C4:1/4 D4:1/4 E4:1/2 D4:1/2 C4:1/4 E4:1/4 D4:1/4 D4:1/4 C4:1",
       "title": "Au clair de la lune",
-      "group": "Canciones infantiles",
-      "requires": "l01_do_re_mi"
+      "group": "Infantiles",
+      "requires": "l01_do_re_mi",
+      "section": "canciones"
     },
     {
       "left": null,
@@ -270,8 +886,9 @@
       "id": "s08_alle_meine_entchen",
       "right": "{bpm=90} C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2 G4:1/2 A4:1/4 A4:1/4 A4:1/4 A4:1/4 G4:1 A4:1/4 A4:1/4 A4:1/4 A4:1/4 G4:1 F4:1/4 F4:1/4 F4:1/4 F4:1/4 E4:1/2 E4:1/2 D4:1/4 D4:1/4 D4:1/4 D4:1/4 C4:1",
       "title": "Alle meine Entchen",
-      "group": "Canciones infantiles",
-      "requires": "l05_cinco_notas"
+      "group": "Infantiles",
+      "requires": "l05_cinco_notas",
+      "section": "canciones"
     },
     {
       "left": null,
@@ -280,8 +897,9 @@
       "id": "s10_old_macdonald",
       "right": "{bpm=90} C4:1/4 C4:1/4 C4:1/4 G4:1/4 A4:1/4 A4:1/4 G4:1/2 E4:1/4 E4:1/4 D4:1/4 D4:1/4 C4:1",
       "title": "Old MacDonald Had a Farm",
-      "group": "Canciones infantiles",
-      "requires": "l05_cinco_notas"
+      "group": "Infantiles",
+      "requires": "l05_cinco_notas",
+      "section": "canciones"
     },
     {
       "left": null,
@@ -290,8 +908,9 @@
       "id": "s04_oda_alegria",
       "right": "{bpm=90} E4:1/4@3 E4:1/4 F4:1/4@4 G4:1/4@5 G4:1/4 F4:1/4 E4:1/4@3 D4:1/4@2 C4:1/4@1 C4:1/4 D4:1/4@2 E4:1/4@3 E4:3/8 D4:1/8 D4:1/2",
       "title": "Himno de la alegría",
-      "group": "Canciones de siempre",
-      "requires": "l05_cinco_notas"
+      "group": "Populares",
+      "requires": "l05_cinco_notas",
+      "section": "canciones"
     },
     {
       "left": null,
@@ -300,8 +919,9 @@
       "id": "s11_jingle_bells",
       "right": "{bpm=100} E4:1/4 E4:1/4 E4:1/2 E4:1/4 E4:1/4 E4:1/2 E4:1/4 G4:1/4 C4:3/8 D4:1/8 E4:1 F4:1/4 F4:1/4 F4:3/8 F4:1/8 F4:1/4 E4:1/4 E4:1/4 E4:1/8 E4:1/8 E4:1/4 D4:1/4 D4:1/4 E4:1/4 D4:1/2 G4:1/2",
       "title": "Jingle Bells",
-      "group": "Canciones de siempre",
-      "requires": "s04_oda_alegria"
+      "group": "Populares",
+      "requires": "s04_oda_alegria",
+      "section": "canciones"
     },
     {
       "left": null,
@@ -310,7 +930,7 @@
       "id": "s12_cumpleanos",
       "right": "{bpm=100} G4:3/16 G4:1/16 A4:1/4 G4:1/4 C5:1/4 B4:1/2 G4:3/16 G4:1/16 A4:1/4 G4:1/4 D5:1/4 C5:1/2 G4:3/16 G4:1/16 G5:1/4 E5:1/4 C5:1/4 B4:1/4 A4:1/4 F5:3/16 F5:1/16 E5:1/4 C5:1/4 D5:1/4 C5:3/4",
       "title": "Cumpleaños feliz",
-      "group": "Canciones de siempre",
+      "group": "Populares",
       "requires": "s11_jingle_bells",
       "lyrics": [
         "Cum-",
@@ -338,7 +958,8 @@
         "ños",
         "fe-",
         "liz"
-      ]
+      ],
+      "section": "canciones"
     },
     {
       "left": null,
@@ -347,8 +968,9 @@
       "id": "s13_quinta_beethoven",
       "right": "{bpm=100} _:1/8 G4:1/8 G4:1/8 G4:1/8 Eb4:1/2 _:1/8 F4:1/8 F4:1/8 F4:1/8 D4:1/2 _:1/8 G4:1/8 G4:1/8 G4:1/8 Eb4:1/2 _:1/8 F4:1/8 F4:1/8 F4:1/8 D4:1/2",
       "title": "Quinta sinfonía",
-      "group": "Canciones de siempre",
-      "requires": "l07_escala_de_do"
+      "group": "Populares",
+      "requires": "l07_escala_de_do",
+      "section": "canciones"
     },
     {
       "left": null,
@@ -357,58 +979,9 @@
       "id": "s14_para_elisa",
       "right": "{bpm=50} E5:1/16 D#5:1/16 E5:1/16 D#5:1/16 E5:1/16 B4:1/16 D5:1/16 C5:1/16 A4:1/4 _:1/16 C4:1/16 E4:1/16 A4:1/16 B4:1/4 _:1/16 E4:1/16 G#4:1/16 B4:1/16 C5:1/4 _:1/16 E5:1/16 D#5:1/16 E5:1/16 D#5:1/16 E5:1/16 B4:1/16 D5:1/16 C5:1/16 A4:1/4 _:1/16 C4:1/16 E4:1/16 A4:1/16 B4:1/4 _:1/16 E4:1/16 C5:1/16 B4:1/16 A4:1/2",
       "title": "Para Elisa (tema)",
-      "group": "Canciones de siempre",
-      "requires": "s13_quinta_beethoven"
-    },
-    {
-      "left": "{bpm=70} C3:1/4@5 D3:1/4@4 E3:1/4@3 E3:1/4@3 D3:1/4@4 C3:1/2@5 C3:1/4 D3:1/4 E3:1/4 C3:1/4 E3:1/4 D3:1/4 C3:1/2",
-      "subtitle": "Do, Re, Mi graves en clave de fa",
-      "language": "es",
-      "id": "l03_mano_izquierda",
-      "right": null,
-      "title": "Mano izquierda",
-      "group": "Mano izquierda",
-      "requires": "l02_mi_fa_sol"
-    },
-    {
-      "left": "{bpm=70} C3:1/4@5 D3:1/4@4 E3:1/4@3 F3:1/4@2 G3:1/2@1 G3:1/4@1 F3:1/4@2 E3:1/4@3 D3:1/4@4 C3:1/2@5",
-      "subtitle": "Meñique en el Do, pulgar en el Sol",
-      "language": "es",
-      "id": "l08_izquierda_cinco",
-      "right": null,
-      "title": "Cinco notas graves",
-      "group": "Mano izquierda",
-      "requires": "l03_mano_izquierda"
-    },
-    {
-      "left": "C3:1@5 C3:1@5",
-      "subtitle": "Toca con las dos manos a la vez",
-      "language": "es",
-      "id": "l04_dos_manos",
-      "right": "{bpm=60} E4:1/2@3 D4:1/2@2 C4:1@1",
-      "title": "Las dos manos",
-      "group": "Las dos manos",
-      "requires": "l03_mano_izquierda"
-    },
-    {
-      "left": "C3:1/4@5 D3:1/4@4 E3:1/4@3 F3:1/4@2 G3:1/2@1 F3:1/4@2 E3:1/4@3 D3:1/4@4 C3:1/2@5",
-      "subtitle": "Las dos manos suben y bajan juntas",
-      "language": "es",
-      "id": "l09_manos_en_paralelo",
-      "right": "{bpm=60} C4:1/4@1 D4:1/4@2 E4:1/4@3 F4:1/4@4 G4:1/2@5 F4:1/4@4 E4:1/4@3 D4:1/4@2 C4:1/2@1",
-      "title": "Manos en paralelo",
-      "group": "Las dos manos",
-      "requires": "l08_izquierda_cinco"
-    },
-    {
-      "left": "C3:1/2 G2:1/2 C3:1",
-      "subtitle": "Tres notas a la vez, con el bajo",
-      "language": "es",
-      "id": "l10_acordes",
-      "right": "{bpm=60} C4+E4+G4:1/2 B3+D4+G4:1/2 C4+E4+G4:1",
-      "title": "Acordes de Do y Sol",
-      "group": "Las dos manos",
-      "requires": "l09_manos_en_paralelo"
+      "group": "Populares",
+      "requires": "s13_quinta_beethoven",
+      "section": "canciones"
     },
     {
       "left": "C3+G3:1 G2+D3:1 C3+G3:1 G2+D3:1",
@@ -417,8 +990,9 @@
       "id": "s05_oda_dos_manos",
       "right": "{bpm=80} E4:1/4 E4:1/4 F4:1/4 G4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/4 C4:1/4 D4:1/4 E4:1/4 E4:3/8 D4:1/8 D4:1/2",
       "title": "Himno de la alegría (2 manos)",
-      "group": "Las dos manos",
-      "requires": "l04_dos_manos"
+      "group": "Populares",
+      "requires": "l04_dos_manos",
+      "section": "canciones"
     }
   ]
 }
