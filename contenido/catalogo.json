@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "minApp": 6,
   "lessons": [
     {
@@ -11,7 +11,8 @@
       "group": "Básicos",
       "requires": null,
       "right": "{bpm=70} C4:1/4@1 D4:1/4@2 E4:1/4@3 E4:1/4 D4:1/4 C4:1/4 C4:1/2 C4:1/4 D4:1/4 E4:1/4 C4:1/4 E4:1/4 D4:1/4 C4:1/2 E4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/2 E4:1/2 D4:1/4 D4:1/4 E4:1/4 D4:1/4 C4:1 C4:1/4 C4:1/4 D4:1/4 D4:1/4 E4:1/4 E4:1/4 D4:1/2 E4:1/4 E4:1/4 D4:1/4 D4:1/4 C4:1/2 C4:1/2 C4:1/4 E4:1/4 D4:1/4 E4:1/4 C4:1",
-      "left": null
+      "left": null,
+      "theory": "t01_teclado"
     },
     {
       "id": "l02_mi_fa_sol",
@@ -22,7 +23,8 @@
       "group": "Básicos",
       "requires": "l01_do_re_mi",
       "right": "{bpm=70} E4:1/4@3 F4:1/4@4 G4:1/4@5 G4:1/4 F4:1/4 E4:1/4 E4:1/2 C4:1/4@1 D4:1/4 E4:1/4 F4:1/4 G4:1 G4:1/4 F4:1/4 E4:1/4 F4:1/4 G4:1/2 G4:1/2 F4:1/4 E4:1/4 F4:1/4 G4:1/4 E4:1/2 C4:1/2 E4:1/4 G4:1/4 F4:1/4 E4:1/4 F4:1/4 G4:1/4 G4:1/2 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1",
-      "left": null
+      "left": null,
+      "theory": "t02_pentagrama"
     },
     {
       "id": "l05_cinco_notas",
@@ -66,7 +68,8 @@
       "group": "Básicos",
       "requires": "b02_notas_repetidas",
       "right": "{bpm=70} C4:1/4@1 C4:1/4 D4:1/2@2 E4:1/4@3 E4:1/4 F4:1/2@4 G4:1/4@5 G4:1/4 E4:1/4@3 C4:1/4@1 D4:1/2@2 C4:1/2@1 G4:1/2 E4:1/4 E4:1/4 F4:1/2 D4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2 G4:1/2 E4:1 D4:1/2 D4:1/2 C4:1/4 D4:1/4 E4:1/4 C4:1/4 D4:3/4 E4:1/4 C4:1 E4:1/4 F4:1/4 G4:1/4 E4:1/4 C4:1",
-      "left": null
+      "left": null,
+      "theory": "t03_duraciones"
     },
     {
       "id": "b03_silencios",
@@ -77,7 +80,8 @@
       "group": "Básicos",
       "requires": "l06_largas_y_cortas",
       "right": "{bpm=70} C4:1/4 D4:1/4 E4:1/4 _:1/4 E4:1/4 F4:1/4 G4:1/4 _:1/4 G4:1/4 F4:1/4 E4:1/4 _:1/4 D4:1/4 C4:1/2 _:1/4 E4:1/4 _:1/4 E4:1/4 _:1/4 D4:1/4 D4:1/4 C4:1/2 C4:1/4 E4:1/4 G4:1/4 _:1/4 G4:1/4 E4:1/4 C4:1/2 D4:1/4 _:1/4 F4:1/4 _:1/4 E4:1/4 _:1/4 C4:1/4 _:1/4 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2 _:1/2",
-      "left": null
+      "left": null,
+      "theory": "t04_silencios"
     },
     {
       "id": "b04_posicion_sol",
@@ -110,7 +114,8 @@
       "group": "Básicos",
       "requires": "b05_sol_abajo",
       "right": null,
-      "left": "{bpm=70} C3:1/4@5 D3:1/4@4 E3:1/4@3 E3:1/4 D3:1/4 C3:1/4 C3:1/2 C3:1/4 D3:1/4 E3:1/4 C3:1/4 E3:1/4 D3:1/4 C3:1/2 E3:1/4 D3:1/4 C3:1/4 D3:1/4 E3:1/2 E3:1/2 D3:1/4 D3:1/4 E3:1/4 D3:1/4 C3:1 C3:1/4 C3:1/4 D3:1/4 D3:1/4 E3:1/4 E3:1/4 D3:1/2 E3:1/4 E3:1/4 D3:1/4 D3:1/4 C3:1/2 C3:1/2 C3:1/4 E3:1/4 D3:1/4 E3:1/4 C3:1"
+      "left": "{bpm=70} C3:1/4@5 D3:1/4@4 E3:1/4@3 E3:1/4 D3:1/4 C3:1/4 C3:1/2 C3:1/4 D3:1/4 E3:1/4 C3:1/4 E3:1/4 D3:1/4 C3:1/2 E3:1/4 D3:1/4 C3:1/4 D3:1/4 E3:1/2 E3:1/2 D3:1/4 D3:1/4 E3:1/4 D3:1/4 C3:1 C3:1/4 C3:1/4 D3:1/4 D3:1/4 E3:1/4 E3:1/4 D3:1/2 E3:1/4 E3:1/4 D3:1/4 D3:1/4 C3:1/2 C3:1/2 C3:1/4 E3:1/4 D3:1/4 E3:1/4 C3:1",
+      "theory": "t05_izquierda"
     },
     {
       "id": "b09_izq_saltos",
@@ -143,7 +148,8 @@
       "group": "Básicos",
       "requires": "l08_izquierda_cinco",
       "right": "{bpm=60} C4:1/4@1 D4:1/4@2 E4:1/4@3 F4:1/4@1 G4:1/4@2 A4:1/4@3 B4:1/4@4 C5:1/4@5 C5:1/4@5 B4:1/4@4 A4:1/4@3 G4:1/4@2 F4:1/4@1 E4:1/4@3 D4:1/4@2 C4:1/4@1 C4:1/8@1 D4:1/8@2 E4:1/4@3 F4:1/8@1 G4:1/8@2 A4:1/4@3 B4:1/8@4 C5:1/8@5 C5:3/4@5 B4:1/8@4 A4:1/8@3 G4:1/4@2 F4:1/8@1 E4:1/8@3 D4:1/4@2 C4:1/2@1 _:1/2 C4:1/4@1 E4:1/4@3 D4:1/4@2 F4:1/4@1 E4:1/4@3 G4:1/4@2 F4:1/4@1 A4:1/4@3 G4:1/4@2 B4:1/4@4 A4:1/4@3 C5:1/4@5 C5:1/2@5 B4:1/4@4 A4:1/4@3 G4:1/4@2 F4:1/4@1 E4:1/4@3 D4:1/4@2 C4:1@1",
-      "left": null
+      "left": null,
+      "theory": "t06_pulgar"
     },
     {
       "id": "b06_corcheas",
@@ -154,7 +160,8 @@
       "group": "Básicos",
       "requires": "l07_escala_de_do",
       "right": "{bpm=66} C4:1/8 D4:1/8 E4:1/8 F4:1/8 G4:1/4 G4:1/4 G4:1/8 F4:1/8 E4:1/8 D4:1/8 C4:1/4 C4:1/4 C4:1/8 C4:1/8 D4:1/8 D4:1/8 E4:1/4 E4:1/4 E4:1/8 F4:1/8 G4:1/8 E4:1/8 F4:1/4 D4:1/4 C4:1/8 E4:1/8 D4:1/8 F4:1/8 E4:1/8 G4:1/8 F4:1/8 D4:1/8 E4:1/8 D4:1/8 C4:1/8 D4:1/8 E4:1/4 C4:1/4 C4:1",
-      "left": null
+      "left": null,
+      "theory": "t07_corcheas"
     },
     {
       "id": "b07_puntillo",
@@ -165,7 +172,8 @@
       "group": "Básicos",
       "requires": "b06_corcheas",
       "right": "{bpm=70} C4:3/4 D4:1/4 E4:3/4 F4:1/4 G4:3/4 F4:1/4 E4:1/2 D4:1/2 E4:1/4 F4:1/4 G4:1/2 G4:3/4 _:1/4 G4:1/4 F4:1/4 E4:1/2 E4:3/4 D4:1/4 C4:1/4 E4:1/4 G4:1/4 E4:1/4 D4:3/4 _:1/4 E4:3/4 D4:1/4 C4:1",
-      "left": null
+      "left": null,
+      "theory": "t08_puntillo"
     },
     {
       "id": "b10_izq_sol",
@@ -231,7 +239,8 @@
       "group": "Básicos",
       "requires": "b13_pregunta_respuesta",
       "right": "{bpm=70} G4:1/4 A4:1/4 B4:1/4 A4:1/4 G4:1/2 F#4:1/2 G4:1/4 F#4:1/4 G4:1/4 A4:1/4 B4:1/2 G4:1/2 D5:1/4 C5:1/4 B4:1/4 A4:1/4 G4:1/4 F#4:1/4 G4:1/2 A4:1/4 F#4:1/4 G4:1/4 A4:1/4 B4:1/2 B4:1/2 D5:1/4 B4:1/4 A4:1/4 F#4:1/4 G4:1/2 A4:1/2 B4:1/4 A4:1/4 G4:1/4 F#4:1/4 G4:1",
-      "left": null
+      "left": null,
+      "theory": "t09_sostenido"
     },
     {
       "id": "b15_si_bemol",
@@ -242,7 +251,8 @@
       "group": "Básicos",
       "requires": "b14_fa_sostenido",
       "right": "{bpm=70} F4:1/4 G4:1/4 A4:1/4 Bb4:1/4 C5:1/2 C5:1/2 C5:1/4 Bb4:1/4 A4:1/4 G4:1/4 F4:1/2 F4:1/2 F4:1/4 A4:1/4 G4:1/4 Bb4:1/4 A4:1/4 C5:1/4 Bb4:1/2 A4:1/4 G4:1/4 F4:1/4 G4:1/4 A4:1/2 A4:1/2 C5:1/4 A4:1/4 Bb4:1/4 G4:1/4 A4:1/4 F4:1/4 G4:1/2 A4:1/4 Bb4:1/4 G4:1/4 E4:1/4 F4:1",
-      "left": null
+      "left": null,
+      "theory": "t10_bemol"
     },
     {
       "id": "b16_quintas",
@@ -308,7 +318,8 @@
       "group": "Intermedios",
       "requires": "l08_izquierda_cinco",
       "right": "{bpm=60} E4:1/2@3 D4:1/2@2 C4:1@1 E4:1/2 D4:1/2 C4:1/2 C4:1/2 G4:1/2 F4:1/2 E4:1/2 D4:1/2 E4:1/2 D4:1/2 C4:1 C4:1/2 E4:1/2 G4:1 E4:1/2 D4:1/2 C4:1",
-      "left": "C3:1@5 C3:1 C3:1 C3:1 C3:1 G2:1 C3:1 C3:1 C3:1 C3:1 G2:1 C3:1"
+      "left": "C3:1@5 C3:1 C3:1 C3:1 C3:1 G2:1 C3:1 C3:1 C3:1 C3:1 G2:1 C3:1",
+      "theory": "t11_dos_manos"
     },
     {
       "id": "l09_manos_en_paralelo",
@@ -341,7 +352,8 @@
       "group": "Intermedios",
       "requires": "i01_acorde_de_fondo",
       "right": "{bpm=60} C4+E4+G4:1/2@1.3.5 B3+D4+G4:1/2@1.2.5 C4+E4+G4:1@1.3.5 C4+E4+G4:1/2 B3+D4+G4:1/2 C4+E4+G4:1/2 B3+D4+G4:1/2 C4+E4+G4:1/4 C4+E4+G4:1/4 B3+D4+G4:1/4 B3+D4+G4:1/4 C4+E4+G4:1/2 C4+E4+G4:1/2 B3+D4+G4:1/2 B3+D4+G4:1/2 C4+E4+G4:1",
-      "left": "C3:1/2 G2:1/2 C3:1 C3:1/2 G2:1/2 C3:1/2 G2:1/2 C3:1/4 C3:1/4 G2:1/4 G2:1/4 C3:1/2 C3:1/2 G2:1/2 G2:1/2 C3:1"
+      "left": "C3:1/2 G2:1/2 C3:1 C3:1/2 G2:1/2 C3:1/2 G2:1/2 C3:1/4 C3:1/4 G2:1/4 G2:1/4 C3:1/2 C3:1/2 G2:1/2 G2:1/2 C3:1",
+      "theory": "t12_acordes"
     },
     {
       "id": "i02_do_y_sol_izquierda",
@@ -396,7 +408,8 @@
       "group": "Intermedios",
       "requires": "i10_paralelo_en_sol",
       "right": "{bpm=96} {ts=3/4} E4:3/4 G4:3/4 F4:3/4 D4:3/4 D4:3/4 F4:3/4 E4:3/4 C4:3/4 E4:1/4 F4:1/4 G4:1/4 A4:3/4 G4:3/4 E4:3/4 F4:1/4 E4:1/4 D4:1/4 G4:3/4 E4:3/4 C4:3/4",
-      "left": "{ts=3/4} C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 F2:1/4 A2+C3:1/4 A2+C3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4"
+      "left": "{ts=3/4} C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 F2:1/4 A2+C3:1/4 A2+C3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 G2:1/4 B2+D3:1/4 B2+D3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4",
+      "theory": "t13_compas_tres"
     },
     {
       "id": "i05_acordes_derecha",
@@ -1661,6 +1674,493 @@
       "requires": "s13_quinta_beethoven",
       "right": "{bpm=56} {ts=3/8} {up=1/8} E5:1/16 D#5:1/16 E5:1/16 D#5:1/16 E5:1/16 B4:1/16 D5:1/16 C5:1/16 A4:1/8 _:1/16 C4:1/16 E4:1/16 A4:1/16 B4:1/8 _:1/16 E4:1/16 G#4:1/16 B4:1/16 C5:1/8 _:1/16 E4:1/16 E5:1/16 D#5:1/16 E5:1/16 D#5:1/16 E5:1/16 B4:1/16 D5:1/16 C5:1/16 A4:1/8 _:1/16 C4:1/16 E4:1/16 A4:1/16 B4:1/8 _:1/16 E4:1/16 C5:1/16 B4:1/16 A4:3/8",
       "left": null
+    }
+  ],
+  "theory": [
+    {
+      "id": "t01_teclado",
+      "title": "El teclado y tus dedos",
+      "pages": [
+        {
+          "text": "Las teclas negras van en grupos: de 2 y de 3.",
+          "visual": {
+            "type": "keys",
+            "from": 48,
+            "whites": 15,
+            "keys": [
+              49,
+              51,
+              54,
+              56,
+              58,
+              61,
+              63,
+              66,
+              68,
+              70
+            ],
+            "names": false
+          }
+        },
+        {
+          "text": "El Do está justo a la izquierda de las 2 teclas negras.",
+          "visual": {
+            "type": "keys",
+            "from": 48,
+            "whites": 15,
+            "keys": [
+              60
+            ],
+            "names": true
+          }
+        },
+        {
+          "text": "Hay muchos Do. El de en medio es el Do central.",
+          "visual": {
+            "type": "keys",
+            "from": 48,
+            "whites": 15,
+            "keys": [
+              48,
+              60,
+              72
+            ],
+            "names": true
+          }
+        },
+        {
+          "text": "Cada dedo tiene un número: el pulgar es el 1 y el meñique, el 5.",
+          "visual": {
+            "type": "hand",
+            "hand": "right",
+            "marked": []
+          }
+        },
+        {
+          "text": "Pulgar en el Do central: Do, Re y Mi con los dedos 1, 2 y 3. ¡Pulsa las teclas!",
+          "visual": {
+            "type": "keys",
+            "from": 60,
+            "whites": 8,
+            "keys": [
+              60,
+              62,
+              64
+            ],
+            "names": false,
+            "fingers": [
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        {
+          "text": "Dedos redondos, como si sujetaras una pelota pequeña.",
+          "visual": {
+            "type": "hand",
+            "hand": "right",
+            "marked": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "t02_pentagrama",
+      "title": "El pentagrama",
+      "pages": [
+        {
+          "text": "El pentagrama tiene 5 líneas. Las notas van en las líneas y en los espacios.",
+          "visual": {
+            "type": "staff",
+            "right": "C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2",
+            "left": null
+          }
+        },
+        {
+          "text": "El Do central va debajo, con una rayita solo para él.",
+          "visual": {
+            "type": "staff",
+            "right": "C4:1",
+            "left": null
+          }
+        },
+        {
+          "text": "Cuanto más arriba está la nota, más aguda suena.",
+          "visual": {
+            "type": "staff",
+            "right": "C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/4 A4:1/4 B4:1/4 C5:1/4",
+            "left": null
+          }
+        },
+        {
+          "text": "La clave de sol es para la mano derecha: se enrosca en la línea del Sol.",
+          "visual": {
+            "type": "staff",
+            "right": "G4:1/2 G4:1/2",
+            "left": null
+          }
+        },
+        {
+          "text": "Vídeo de prueba A: dibujos animados, sin voz.",
+          "visual": {
+            "type": "video",
+            "url": "https://pianofacil-ayc.pages.dev/videos/pentagrama-a.mp4",
+            "label": "Vídeo A · sin voz"
+          }
+        },
+        {
+          "text": "Vídeo de prueba B: dibujos con voz.",
+          "visual": {
+            "type": "video",
+            "url": "https://pianofacil-ayc.pages.dev/videos/pentagrama-b.mp4",
+            "label": "Vídeo B · con voz"
+          }
+        }
+      ]
+    },
+    {
+      "id": "t03_duraciones",
+      "title": "Largas y cortas",
+      "pages": [
+        {
+          "text": "La negra dura 1 tiempo. Cuenta en voz alta: 1, 2, 3, 4.",
+          "visual": {
+            "type": "staff",
+            "right": "C4:1/4 C4:1/4 C4:1/4 C4:1/4",
+            "left": null
+          }
+        },
+        {
+          "text": "La blanca es hueca y dura 2 tiempos.",
+          "visual": {
+            "type": "staff",
+            "right": "C4:1/2 C4:1/2",
+            "left": null
+          }
+        },
+        {
+          "text": "La redonda dura 4 tiempos: ¡mantén la tecla pulsada!",
+          "visual": {
+            "type": "staff",
+            "right": "C4:1",
+            "left": null
+          }
+        },
+        {
+          "text": "Las barras separan los compases. En cada uno caben 4 tiempos.",
+          "visual": {
+            "type": "staff",
+            "right": "C4:1/4 C4:1/4 C4:1/2 C4:1",
+            "left": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "t04_silencios",
+      "title": "Los silencios",
+      "pages": [
+        {
+          "text": "El silencio dice: ¡no toques y sigue contando!",
+          "visual": {
+            "type": "staff",
+            "right": "C4:1/4 _:1/4 C4:1/4 _:1/4",
+            "left": null
+          }
+        },
+        {
+          "text": "Este silencio dura 2 tiempos, como una blanca.",
+          "visual": {
+            "type": "staff",
+            "right": "C4:1/2 _:1/2",
+            "left": null
+          }
+        },
+        {
+          "text": "Y este dura un compás entero.",
+          "visual": {
+            "type": "staff",
+            "right": "C4:1 _:1",
+            "left": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "t05_izquierda",
+      "title": "La mano izquierda",
+      "pages": [
+        {
+          "text": "La mano izquierda también tiene números: el pulgar es el 1 y el meñique, el 5.",
+          "visual": {
+            "type": "hand",
+            "hand": "left",
+            "marked": []
+          }
+        },
+        {
+          "text": "La clave de fa es para la mano izquierda. Sus notas suenan graves.",
+          "visual": {
+            "type": "staff",
+            "right": null,
+            "left": "C3:1/4 D3:1/4 E3:1/4 F3:1/4 G3:1/2"
+          }
+        },
+        {
+          "text": "El meñique (5) va en el Do de abajo: Do, Re y Mi con los dedos 5, 4 y 3.",
+          "visual": {
+            "type": "keys",
+            "from": 48,
+            "whites": 8,
+            "keys": [
+              48,
+              50,
+              52
+            ],
+            "names": false,
+            "fingers": [
+              5,
+              4,
+              3
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "t06_pulgar",
+      "title": "Pasar el pulgar",
+      "pages": [
+        {
+          "text": "Para llegar al Do agudo, el pulgar pasa por debajo después del Mi.",
+          "visual": {
+            "type": "keys",
+            "from": 60,
+            "whites": 8,
+            "keys": [
+              60,
+              62,
+              64,
+              65,
+              67,
+              69,
+              71,
+              72
+            ],
+            "names": false,
+            "fingers": [
+              1,
+              2,
+              3,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        },
+        {
+          "text": "Toca el Mi con el 3 y lleva el pulgar (1) por debajo hasta el Fa.",
+          "visual": {
+            "type": "hand",
+            "hand": "right",
+            "marked": [
+              1,
+              3
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "t07_corcheas",
+      "title": "Las corcheas",
+      "pages": [
+        {
+          "text": "Las corcheas van unidas por una barra: dos en un solo tiempo.",
+          "visual": {
+            "type": "staff",
+            "right": "C4:1/8 C4:1/8 D4:1/8 D4:1/8 E4:1/4 E4:1/4",
+            "left": null
+          }
+        },
+        {
+          "text": "Di «ti-ti» en cada pareja de corcheas y «ta» en cada negra.",
+          "visual": {
+            "type": "staff",
+            "right": "C4:1/8 C4:1/8 D4:1/4 E4:1/8 E4:1/8 F4:1/4",
+            "left": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "t08_puntillo",
+      "title": "El puntillo",
+      "pages": [
+        {
+          "text": "El puntillo alarga la nota: la blanca con puntillo dura 3 tiempos.",
+          "visual": {
+            "type": "staff",
+            "right": "C4:3/4 D4:1/4",
+            "left": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "t09_sostenido",
+      "title": "El sostenido",
+      "pages": [
+        {
+          "text": "El sostenido (#) sube a la tecla negra de la derecha.",
+          "visual": {
+            "type": "keys",
+            "from": 60,
+            "whites": 8,
+            "keys": [
+              66
+            ],
+            "names": true
+          }
+        },
+        {
+          "text": "Fa# es la tecla negra entre Fa y Sol.",
+          "visual": {
+            "type": "staff",
+            "right": "F4:1/4 F#4:1/4 G4:1/2",
+            "left": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "t10_bemol",
+      "title": "El bemol",
+      "pages": [
+        {
+          "text": "El bemol (b) baja a la tecla negra de la izquierda.",
+          "visual": {
+            "type": "keys",
+            "from": 65,
+            "whites": 8,
+            "keys": [
+              70
+            ],
+            "names": true
+          }
+        },
+        {
+          "text": "Si bemol es la tecla negra entre La y Si.",
+          "visual": {
+            "type": "staff",
+            "right": "B4:1/4 Bb4:1/4 A4:1/2",
+            "left": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "t11_dos_manos",
+      "title": "Las dos manos",
+      "pages": [
+        {
+          "text": "Arriba toca la mano derecha y abajo, la izquierda.",
+          "visual": {
+            "type": "staff",
+            "right": "E4:1/2 D4:1/2 C4:1",
+            "left": "C3:1 C3:1"
+          }
+        },
+        {
+          "text": "Las notas que están una encima de otra se tocan a la vez.",
+          "visual": {
+            "type": "staff",
+            "right": "E4:1/2 D4:1/2 C4:1",
+            "left": "C3:1 C3:1"
+          }
+        },
+        {
+          "text": "Truco: practica primero cada mano sola con los botones ✋ Derecha y 🤚 Izquierda.",
+          "visual": {
+            "type": "keys",
+            "from": 48,
+            "whites": 15,
+            "keys": [
+              48,
+              64
+            ],
+            "names": false,
+            "fingers": [
+              5,
+              3
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "t12_acordes",
+      "title": "Los acordes",
+      "pages": [
+        {
+          "text": "Un acorde son varias notas que suenan a la vez.",
+          "visual": {
+            "type": "staff",
+            "right": "C4+E4+G4:1",
+            "left": null
+          }
+        },
+        {
+          "text": "Do, Mi y Sol se tocan con los dedos 1, 3 y 5. ¡Pruébalo!",
+          "visual": {
+            "type": "keys",
+            "from": 60,
+            "whites": 8,
+            "keys": [
+              60,
+              64,
+              67
+            ],
+            "names": false,
+            "fingers": [
+              1,
+              3,
+              5
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "t13_compas_tres",
+      "title": "El compás de 3",
+      "pages": [
+        {
+          "text": "El 3/4 quiere decir 3 tiempos en cada compás.",
+          "visual": {
+            "type": "staff",
+            "right": "{ts=3/4} C4:1/4 E4:1/4 G4:1/4 C4:1/4 E4:1/4 G4:1/4",
+            "left": null
+          }
+        },
+        {
+          "text": "Cuenta «un, dos, tres» y marca fuerte el «un».",
+          "visual": {
+            "type": "staff",
+            "right": "{ts=3/4} C4:1/4 E4:1/4 G4:1/4 D4:1/4 F4:1/4 G4:1/4",
+            "left": null
+          }
+        }
+      ]
     }
   ]
 }
