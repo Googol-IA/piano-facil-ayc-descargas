@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "minApp": 6,
   "lessons": [
     {
@@ -1808,19 +1808,11 @@
           }
         },
         {
-          "text": "Vídeo de prueba A: dibujos animados, sin voz.",
-          "visual": {
-            "type": "video",
-            "url": "https://pianofacil-ayc.pages.dev/videos/pentagrama-a.mp4",
-            "label": "Vídeo A · sin voz"
-          }
-        },
-        {
-          "text": "Vídeo de prueba B: dibujos con voz.",
+          "text": "Mira el vídeo: el pentagrama explicado en un minuto.",
           "visual": {
             "type": "video",
             "url": "https://pianofacil-ayc.pages.dev/videos/pentagrama-b.mp4",
-            "label": "Vídeo B · con voz"
+            "label": "El pentagrama"
           }
         }
       ]
