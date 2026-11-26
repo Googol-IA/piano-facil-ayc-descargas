@@ -1,5 +1,5 @@
 {
-  "version": 13,
+  "version": 14,
   "minApp": 18,
   "lessons": [
     {
@@ -27,13 +27,25 @@
       "theory": "t02_pentagrama"
     },
     {
+      "id": "l06_largas_y_cortas",
+      "title": "Largas y cortas",
+      "subtitle": "Negras, blancas y redondas",
+      "language": "inst",
+      "section": "lecciones",
+      "group": "Básicos",
+      "requires": "l02_mi_fa_sol",
+      "right": "{bpm=70} C4:1/4@1 C4:1/4 D4:1/2@2 E4:1/4@3 E4:1/4 F4:1/2@4 G4:1/4@5 G4:1/4 E4:1/4@3 C4:1/4@1 D4:1/2@2 C4:1/2@1 G4:1/2 E4:1/4 E4:1/4 F4:1/2 D4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2 G4:1/2 E4:1 D4:1/2 D4:1/2 C4:1/4 D4:1/4 E4:1/4 C4:1/4 D4:3/4 E4:1/4 C4:1 E4:1/4 F4:1/4 G4:1/4 E4:1/4 C4:1",
+      "left": null,
+      "theory": "t03_duraciones"
+    },
+    {
       "id": "l05_cinco_notas",
       "title": "Cinco notas",
       "subtitle": "Los cinco dedos en su sitio",
       "language": "inst",
       "section": "lecciones",
       "group": "Básicos",
-      "requires": "l02_mi_fa_sol",
+      "requires": "l06_largas_y_cortas",
       "right": "{bpm=70} C4:1/4@1 D4:1/4@2 E4:1/4@3 F4:1/4@4 G4:1/2@5 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/2 C4:1/4 E4:1/4 D4:1/4 F4:1/4 E4:1/4 G4:1/4 F4:1/2 G4:1/4 E4:1/4 F4:1/4 D4:1/4 E4:1/4 C4:1/4 D4:1/2 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/4 G4:1/4 G4:1/2 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/4 C4:1/4 C4:1/4 _:1/4",
       "left": null
     },
@@ -60,25 +72,13 @@
       "left": null
     },
     {
-      "id": "l06_largas_y_cortas",
-      "title": "Largas y cortas",
-      "subtitle": "Negras, blancas y redondas",
-      "language": "inst",
-      "section": "lecciones",
-      "group": "Básicos",
-      "requires": "b02_notas_repetidas",
-      "right": "{bpm=70} C4:1/4@1 C4:1/4 D4:1/2@2 E4:1/4@3 E4:1/4 F4:1/2@4 G4:1/4@5 G4:1/4 E4:1/4@3 C4:1/4@1 D4:1/2@2 C4:1/2@1 G4:1/2 E4:1/4 E4:1/4 F4:1/2 D4:1/4 D4:1/4 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2 G4:1/2 E4:1 D4:1/2 D4:1/2 C4:1/4 D4:1/4 E4:1/4 C4:1/4 D4:3/4 E4:1/4 C4:1 E4:1/4 F4:1/4 G4:1/4 E4:1/4 C4:1",
-      "left": null,
-      "theory": "t03_duraciones"
-    },
-    {
       "id": "b03_silencios",
       "title": "Los silencios",
       "subtitle": "En el silencio no se toca: ¡cuenta!",
       "language": "inst",
       "section": "lecciones",
       "group": "Básicos",
-      "requires": "l06_largas_y_cortas",
+      "requires": "b02_notas_repetidas",
       "right": "{bpm=70} C4:1/4 D4:1/4 E4:1/4 _:1/4 E4:1/4 F4:1/4 G4:1/4 _:1/4 G4:1/4 F4:1/4 E4:1/4 _:1/4 D4:1/4 C4:1/2 _:1/4 E4:1/4 _:1/4 E4:1/4 _:1/4 D4:1/4 D4:1/4 C4:1/2 C4:1/4 E4:1/4 G4:1/4 _:1/4 G4:1/4 E4:1/4 C4:1/2 D4:1/4 _:1/4 F4:1/4 _:1/4 E4:1/4 _:1/4 C4:1/4 _:1/4 C4:1/4 D4:1/4 E4:1/4 F4:1/4 G4:1/2 _:1/2",
       "left": null,
       "theory": "t04_silencios"
