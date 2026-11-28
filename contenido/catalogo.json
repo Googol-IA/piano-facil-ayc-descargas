@@ -1,5 +1,5 @@
 {
-  "version": 16,
+  "version": 17,
   "minApp": 18,
   "lessons": [
     {
@@ -10938,7 +10938,7 @@
           }
         },
         {
-          "text": "Empieza muy despacio con «Al ritmo lento» y, cuando salga, acelera.",
+          "text": "Empieza muy despacio bajando el ritmo con las flechas ▼ y, cuando salga, acelera.",
           "visual": {
             "type": "hand",
             "hand": "right",
