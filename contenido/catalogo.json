@@ -1,5 +1,5 @@
 {
-  "version": 15,
+  "version": 16,
   "minApp": 18,
   "lessons": [
     {
@@ -1628,7 +1628,8 @@
         "hot",
         "cross",
         "buns"
-      ]
+      ],
+      "chords": "C C G C C C G C"
     },
     {
       "id": "s07_au_clair",
@@ -1729,7 +1730,8 @@
         "mour",
         "de",
         "Dieu"
-      ]
+      ],
+      "chords": "C C G C C C G C G Am G G C C G C C C G C C C G C G Am G G C C G C"
     },
     {
       "id": "s01_mary",
@@ -1794,7 +1796,8 @@
         "white",
         "as",
         "snow"
-      ]
+      ],
+      "chords": "C C G C C C G C C C G C C C G C"
     },
     {
       "id": "s02_frere_jacques",
@@ -1871,7 +1874,8 @@
         "Din",
         "don",
         "dan"
-      ]
+      ],
+      "chords": "C C C G C C C C C C C G C C C C"
     },
     {
       "id": "s03_estrellita",
@@ -1969,7 +1973,8 @@
         "se-",
         "rás"
       ],
-      "exam": true
+      "exam": true,
+      "chords": "C F F G C G C G C F F G C F F G C G C G C F F G"
     },
     {
       "id": "s15_pollitos",
@@ -2031,7 +2036,8 @@
         "frí-",
         "o"
       ],
-      "theory": "t17_dos_por_cuatro"
+      "theory": "t17_dos_por_cuatro",
+      "chords": "C C F C F C G C C C F C F C G C"
     },
     {
       "id": "s08_alle_meine_entchen",
@@ -2098,7 +2104,8 @@
         "in",
         "die",
         "Höh"
-      ]
+      ],
+      "chords": "C C F C F C F C G C C C F C F C F C G C"
     },
     {
       "id": "s10_old_macdonald",
@@ -2229,7 +2236,8 @@
         "E-",
         "I-",
         "O"
-      ]
+      ],
+      "chords": "C F C C C F C C C C C C C F C C C F C C C F C C C C C C C F C C"
     },
     {
       "id": "s18_yankee_doodle",
@@ -2299,7 +2307,8 @@
         "ro-",
         "ni"
       ],
-      "exam": true
+      "exam": true,
+      "chords": "C C C G C F G C C C C G C F G C"
     },
     {
       "id": "s16_row_your_boat",
@@ -2368,7 +2377,8 @@
         "dream"
       ],
       "exam": true,
-      "theory": "t18_seis_por_ocho"
+      "theory": "t18_seis_por_ocho",
+      "chords": "C C C C C C G C C C C C C C G C"
     },
     {
       "id": "s17_london_bridge",
@@ -2429,7 +2439,8 @@
         "fair",
         "la-",
         "dy"
-      ]
+      ],
+      "chords": "C C G C C C G C C C G C C C G C"
     },
     {
       "id": "s20_itsy_bitsy",
@@ -2468,7 +2479,8 @@
         "wa-",
         "ter",
         "spout"
-      ]
+      ],
+      "chords": "C C G C C C G C"
     },
     {
       "id": "s04_oda_alegria",
@@ -2479,7 +2491,8 @@
       "group": "Populares",
       "requires": "l05_cinco_notas",
       "right": "{bpm=90} E4:1/4@3 E4:1/4 F4:1/4@4 G4:1/4@5 G4:1/4 F4:1/4 E4:1/4@3 D4:1/4@2 C4:1/4@1 C4:1/4 D4:1/4@2 E4:1/4@3 E4:3/8 D4:1/8 D4:1/2 E4:1/4 E4:1/4 F4:1/4 G4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/4 C4:1/4 D4:1/4 E4:1/4 D4:3/8 C4:1/8 C4:1/2 D4:1/4 D4:1/4 E4:1/4 C4:1/4 D4:1/4 E4:1/8 F4:1/8 E4:1/4 C4:1/4 D4:1/4 E4:1/8 F4:1/8 E4:1/4 D4:1/4 C4:1/4 D4:1/4 G3:1/2 E4:1/4 E4:1/4 F4:1/4 G4:1/4 G4:1/4 F4:1/4 E4:1/4 D4:1/4 C4:1/4 C4:1/4 D4:1/4 E4:1/4 D4:3/8 C4:1/8 C4:1/2",
-      "left": null
+      "left": null,
+      "chords": "C C C G C C C C G C G G C C C C"
     },
     {
       "id": "s05_oda_dos_manos",
@@ -2555,7 +2568,8 @@
         "o-",
         "pen",
         "sleigh"
-      ]
+      ],
+      "chords": "C C C C F C G G C C C C F C G C"
     },
     {
       "id": "s12_cumpleanos",
@@ -2594,7 +2608,8 @@
         "fe-",
         "liz"
       ],
-      "theory": "t16_anacrusa"
+      "theory": "t16_anacrusa",
+      "chords": "C G G C C F G C"
     },
     {
       "id": "s19_amazing_grace",
@@ -2605,7 +2620,8 @@
       "group": "Populares",
       "requires": "s12_cumpleanos",
       "right": "{bpm=80} {ts=3/4} {up=1/4} G3:1/4 C4:1/2 E4:1/8 C4:1/8 E4:1/2 D4:1/4 C4:1/2 A3:1/4 G3:1/2 G3:1/4 C4:1/2 E4:1/8 C4:1/8 E4:1/2 D4:1/4 G4:3/4 G4:1/2 E4:1/4 G4:1/2 E4:1/8 C4:1/8 E4:1/2 D4:1/4 C4:1/2 A3:1/4 G3:1/2 G3:1/4 C4:1/2 E4:1/8 C4:1/8 E4:1/2 D4:1/4 C4:1/2",
-      "left": null
+      "left": null,
+      "chords": "C C F C C C G C C C F C C G C"
     },
     {
       "id": "s13_quinta_beethoven",
@@ -2616,7 +2632,8 @@
       "group": "Populares",
       "requires": "l07_escala_de_do",
       "right": "{bpm=100} {ts=2/4} _:1/8 G4:1/8 G4:1/8 G4:1/8 Eb4:1/2 _:1/8 F4:1/8 F4:1/8 F4:1/8 D4:1/2 _:1/8 G4:1/8 G4:1/8 G4:1/8 Eb4:1/2 _:1/8 F4:1/8 F4:1/8 F4:1/8 D4:1/2",
-      "left": null
+      "left": null,
+      "chords": "Cm Cm G G Cm Cm G G"
     },
     {
       "id": "s14_para_elisa",
@@ -2627,7 +2644,8 @@
       "group": "Populares",
       "requires": "s13_quinta_beethoven",
       "right": "{bpm=56} {ts=3/8} {up=1/8} E5:1/16 D#5:1/16 E5:1/16 D#5:1/16 E5:1/16 B4:1/16 D5:1/16 C5:1/16 A4:1/8 _:1/16 C4:1/16 E4:1/16 A4:1/16 B4:1/8 _:1/16 E4:1/16 G#4:1/16 B4:1/16 C5:1/8 _:1/16 E4:1/16 E5:1/16 D#5:1/16 E5:1/16 D#5:1/16 E5:1/16 B4:1/16 D5:1/16 C5:1/16 A4:1/8 _:1/16 C4:1/16 E4:1/16 A4:1/16 B4:1/8 _:1/16 E4:1/16 C5:1/16 B4:1/16 A4:3/8",
-      "left": null
+      "left": null,
+      "chords": "Am Am E Am Am Am E Am"
     },
     {
       "id": "s21_oh_susanna",
@@ -2668,7 +2686,8 @@
         "for",
         "to",
         "see"
-      ]
+      ],
+      "chords": "C C C G C C C"
     },
     {
       "id": "s22_noche_de_paz",
@@ -2727,7 +2746,8 @@
         "scher",
         "Ruh",
         ""
-      ]
+      ],
+      "chords": "C C C C G G C C F F C C F F C C G G C C C G C"
     },
     {
       "id": "s23_minueto_en_sol",
@@ -2764,7 +2784,8 @@
       "requires": "s18_yankee_doodle",
       "right": "{bpm=96} {ts=2/4} C4:1/8 C4:1/8 E4:1/8 E4:1/8 G4:1/8 G4:1/8 E4:1/4 F4:1/8 F4:1/8 D4:1/8 D4:1/8 B3:1/8 B3:1/8 G3:1/4 C4:1/8 C4:1/8 E4:1/8 E4:1/8 G4:1/8 G4:1/8 E4:1/4 F4:1/8 F4:1/8 D4:1/8 D4:1/8 B3:1/8 B3:1/8 G3:1/4 C4:1/2",
       "left": null,
-      "exam": true
+      "exam": true,
+      "chords": "C C G G C C G G C"
     },
     {
       "id": "s26_la_cucaracha",
@@ -2794,7 +2815,8 @@
         "ca-",
         "mi-",
         "nar"
-      ]
+      ],
+      "chords": "C C F G"
     },
     {
       "id": "s27_we_wish_you",
@@ -2805,7 +2827,8 @@
       "group": "Populares",
       "requires": "b14_fa_sostenido",
       "right": "{bpm=96} {ts=3/4} {up=1/4} D4:1/4 G4:1/4 G4:1/8 A4:1/8 G4:1/8 F#4:1/8 E4:1/4 E4:1/4 E4:1/4 A4:1/4 A4:1/8 B4:1/8 A4:1/8 G4:1/8 F#4:1/4 D4:1/4 D4:1/4 B4:1/4 B4:1/8 C5:1/8 B4:1/8 A4:1/8 G4:1/4 E4:1/4 D4:1/8 D4:1/8 E4:1/4 A4:1/4 F#4:1/4 G4:3/4",
-      "left": null
+      "left": null,
+      "chords": "G C D D G C D G"
     },
     {
       "id": "mut_2155",
