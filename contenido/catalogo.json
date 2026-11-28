@@ -1,5 +1,5 @@
 {
-  "version": 17,
+  "version": 18,
   "minApp": 18,
   "lessons": [
     {
@@ -229,7 +229,8 @@
       "group": "Básicos",
       "requires": "b12_turnos",
       "right": "{bpm=65} E4:1/4 E4:1/4 F4:1/4 G4:1/4 G4:1/2 _:1/2 _:1 _:1 G4:1/4 F4:1/4 E4:1/4 D4:1/4 D4:1/2 _:1/2 _:1 _:1 C4:1/4 E4:1/4 G4:1/4 E4:1/4 D4:1/2 _:1/2 _:1 _:1",
-      "left": "_:1 _:1 G3:1/4 G3:1/4 F3:1/4 E3:1/4 E3:1/2 _:1/2 _:1 _:1 D3:1/4 E3:1/4 F3:1/4 G3:1/4 G3:1/2 _:1/2 _:1 _:1 G3:1/4 E3:1/4 C3:1/4 E3:1/4 C3:1/2 _:1/2"
+      "left": "_:1 _:1 G3:1/4 G3:1/4 F3:1/4 E3:1/4 E3:1/2 _:1/2 _:1 _:1 D3:1/4 E3:1/4 F3:1/4 G3:1/4 G3:1/2 _:1/2 _:1 _:1 G3:1/4 E3:1/4 C3:1/4 E3:1/4 C3:1/2 _:1/2",
+      "theory": "t40_pregunta_respuesta"
     },
     {
       "id": "b14_fa_sostenido",
@@ -710,7 +711,8 @@
       "group": "Intermedios",
       "requires": "i02_do_y_sol_izquierda",
       "right": "{bpm=67} C4+E4+G4:1/2@1.3.5 C4+F4+A4:1/2@1.2.4 B3+D4+G4:1/2@1.2.5 C4+E4+G4:1/2@1.3.5 C4+E4+G4:1/4 C4+E4+G4:1/4 C4+F4+A4:1/4 C4+F4+A4:1/4 B3+D4+G4:1/4 B3+D4+G4:1/4 C4+E4+G4:1/2 C4+F4+A4:1/2 C4+E4+G4:1/2 B3+D4+G4:1/2 C4+E4+G4:1/2 C4+E4+G4:1/2 C4+F4+A4:1/2 B3+D4+G4:1/2 B3+D4+G4:1/2 C4+E4+G4:1",
-      "left": "C3:1/2 F2:1/2 G2:1/2 C3:1/2 C3:1/2 F2:1/2 G2:1/4 G2:1/4 C3:1/2 F2:1/2 C3:1/2 G2:1/2 C3:1/2 C3:1/2 F2:1/2 G2:1 C3:1"
+      "left": "C3:1/2 F2:1/2 G2:1/2 C3:1/2 C3:1/2 F2:1/2 G2:1/4 G2:1/4 C3:1/2 F2:1/2 C3:1/2 G2:1/2 C3:1/2 C3:1/2 F2:1/2 G2:1 C3:1",
+      "theory": "t39_tres_acordes"
     },
     {
       "id": "i09_movimiento_contrario",
@@ -790,7 +792,8 @@
       "group": "Intermedios",
       "requires": "i07_arpegios",
       "right": "{bpm=74} C4+E4:1/4@1.3 D4+F4:1/4@2.4 E4+G4:1/4@3.5 D4+F4:1/4@2.4 C4+E4:1/2@1.3 C4+E4:1/2 E4+G4:1/4 D4+F4:1/4 C4+E4:1/4 D4+F4:1/4 E4+G4:1/2 E4+G4:1/2 C4+E4:1/4 E4+G4:1/4 D4+F4:1/4 D4+F4:1/4 C4+E4:1/2 _:1/2 E4+G4:1/4 E4+G4:1/4 D4+F4:1/4 D4+F4:1/4 C4+E4:1",
-      "left": "C3:1 C3:1 C3:1 C3:1 C3:1/2 G2:1/2 C3:1/2 _:1/2 G2:1 C3:1"
+      "left": "C3:1 C3:1 C3:1 C3:1 C3:1/2 G2:1/2 C3:1/2 _:1/2 G2:1 C3:1",
+      "theory": "t38_terceras"
     },
     {
       "id": "i14_bajo_y_melodia",
@@ -893,7 +896,8 @@
       "group": "Intermedios",
       "requires": "i15_corcheas_dos_manos",
       "right": "{bpm=77} C4+E4+G4:1@1.3.5 B3+D4+G4:1@1.2.5 C4+E4+A4:1@1.2.5 C4+F4+A4:1@1.2.4 C4+E4+G4:1/2 C4+E4+G4:1/2 B3+D4+G4:1/2 B3+D4+G4:1/2 C4+E4+A4:1/2 C4+E4+A4:1/2 C4+F4+A4:1/2 C4+F4+A4:1/2 C4+E4+G4:1/4 C4+E4+G4:1/4 C4+E4+G4:1/2 B3+D4+G4:1/4 B3+D4+G4:1/4 B3+D4+G4:1/2 C4+E4+A4:1/4 C4+E4+A4:1/4 C4+E4+A4:1/2 C4+F4+A4:1/4 C4+F4+A4:1/4 C4+F4+A4:1/2 C4+E4+G4:1",
-      "left": "C3:1 G2:1 A2:1 F2:1 C3:1 G2:1 A2:1 F2:1 C3:1 G2:1 A2:1 F2:1 C3:1"
+      "left": "C3:1 G2:1 A2:1 F2:1 C3:1 G2:1 A2:1 F2:1 C3:1 G2:1 A2:1 F2:1 C3:1",
+      "theory": "t43_cuatro_acordes"
     },
     {
       "id": "i20_repaso_intermedio",
@@ -915,7 +919,8 @@
       "group": "Intermedios",
       "requires": "i20_repaso_intermedio",
       "right": "{bpm=76} C4:1/4 E4:1/4 G4:1/4 E4:1/4 C4:1/4 E4:1/4 G4:1/2 F4:1/4 A4:1/4 C5:1/4 A4:1/4 F4:1/4 A4:1/4 G4:1/2 E4:1/4 G4:1/4 C5:1/4 G4:1/4 E4:1/4 G4:1/4 F4:1/2 D4:1/4 F4:1/4 G4:1/4 B3:1/4 C4:1",
-      "left": "C3:1/2 G3:1/2 C3:1/2 G3:1/2 F3:1/2 C3:1/2 F3:1/2 G3:1/2 C3:1/2 G3:1/2 C3:1/2 F3:1/2 G2:1/2 G2:1/2 C3:1"
+      "left": "C3:1/2 G3:1/2 C3:1/2 G3:1/2 F3:1/2 C3:1/2 F3:1/2 G3:1/2 C3:1/2 G3:1/2 C3:1/2 F3:1/2 G2:1/2 G2:1/2 C3:1",
+      "theory": "t37_frases"
     },
     {
       "id": "i22_nana",
@@ -926,7 +931,8 @@
       "group": "Intermedios",
       "requires": "i21_marcha_do",
       "right": "{bpm=81} {ts=3/4} E4:1/4 G4:1/4 E4:1/4 D4:1/2 _:1/4 C4:1/4 E4:1/4 C4:1/4 B3:1/2 _:1/4 C4:1/4 D4:1/4 E4:1/4 F4:1/4 E4:1/4 D4:1/4 E4:1/4 D4:1/4 C4:1/4 C4:3/4",
-      "left": "{ts=3/4} C3:1/4 E3+G3:1/4 E3+G3:1/4 G2:1/4 D3+G3:1/4 D3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 G2:1/4 D3+G3:1/4 D3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 F3:1/4 A3+C4:1/4 A3+C4:1/4 G2:1/4 D3+G3:1/4 D3+G3:1/4 C3:3/4"
+      "left": "{ts=3/4} C3:1/4 E3+G3:1/4 E3+G3:1/4 G2:1/4 D3+G3:1/4 D3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 G2:1/4 D3+G3:1/4 D3+G3:1/4 C3:1/4 E3+G3:1/4 E3+G3:1/4 F3:1/4 A3+C4:1/4 A3+C4:1/4 G2:1/4 D3+G3:1/4 D3+G3:1/4 C3:3/4",
+      "theory": "t36_ligado_picado"
     },
     {
       "id": "i23_polca",
@@ -1257,7 +1263,8 @@
       "group": "Avanzados",
       "requires": "a04_arpegios_largos",
       "right": "{bpm=82} A4:1/4@1 B4:1/4@2 C5:1/4@3 D5:1/4@1 E5:1/4@2 F5:1/4@3 G#5:1/4@4 A5:1/4@5 A5:1/4@5 G#5:1/4@4 F5:1/4@3 E5:1/4@2 D5:1/4@1 C5:1/4@3 B4:1/4@2 A4:1/4@1 E5:1/4 C5:1/4 A4:1/4 C5:1/4 E5:1/4 F5:1/4 E5:1/2 D5:1/4 B4:1/4 G#4:1/4 B4:1/4 A4:1",
-      "left": "A2+C3+E3:1/2@5.3.1 A2+C3+E3:1/2 D3+F3+A3:1/2@5.3.1 E3+G#3+B3:1/2@5.3.1 A2+C3+E3:1/2 E3+G#3+B3:1/2 D3+F3+A3:1/2 A2+C3+E3:1/2 A2+C3+E3:1/2 A2+C3+E3:1/2 D3+F3+A3:1/2 D3+F3+A3:1/2 E3+G#3+B3:1/2 E3+G#3+B3:1/2 A2+C3+E3:1"
+      "left": "A2+C3+E3:1/2@5.3.1 A2+C3+E3:1/2 D3+F3+A3:1/2@5.3.1 E3+G#3+B3:1/2@5.3.1 A2+C3+E3:1/2 E3+G#3+B3:1/2 D3+F3+A3:1/2 A2+C3+E3:1/2 A2+C3+E3:1/2 A2+C3+E3:1/2 D3+F3+A3:1/2 D3+F3+A3:1/2 E3+G#3+B3:1/2 E3+G#3+B3:1/2 A2+C3+E3:1",
+      "theory": "t44_menor_armonica"
     },
     {
       "id": "a07_cromatica",
@@ -1393,7 +1400,8 @@
       "group": "Avanzados",
       "requires": "a16_sonatina_en_sol",
       "right": "{bpm=79} {ts=6/8} A4:1/8 C5:1/8 E5:1/8 C5:1/8 A4:1/8 C5:1/8 A4:1/8 C5:1/8 E5:1/8 C5:1/8 A4:1/4 G#4:1/8 B4:1/8 E5:1/8 B4:1/8 G#4:1/8 B4:1/8 G#4:1/8 B4:1/8 E5:1/8 B4:1/8 G#4:1/4 D4:1/8 F4:1/8 A4:1/8 F4:1/8 D4:1/8 F4:1/8 D4:1/8 F4:1/8 A4:1/8 F4:1/8 D4:1/4 E4:1/8 G#4:1/8 B4:1/8 G#4:1/8 E4:1/8 G#4:1/8 A4:3/4",
-      "left": "{ts=6/8} A2:3/8 E3:3/8 A2:3/8 E3:3/8 E3:3/8 B3:3/8 E3:3/8 G#3:3/8 D3:3/8 A3:3/8 D3:3/8 A3:3/8 E3:3/8 B3:3/8 A2:3/4"
+      "left": "{ts=6/8} A2:3/8 E3:3/8 A2:3/8 E3:3/8 E3:3/8 B3:3/8 E3:3/8 G#3:3/8 D3:3/8 A3:3/8 D3:3/8 A3:3/8 E3:3/8 B3:3/8 A2:3/4",
+      "theory": "t42_tarantela"
     },
     {
       "id": "a18_terceras_dos_manos",
@@ -1548,7 +1556,8 @@
       "group": "Avanzados",
       "requires": "a30_mi_menor_dos_manos",
       "right": "{bpm=101} E5:1/4 G5:1/4 C5:1/4 E5:1/4 D5:1/4 F5:1/4 B4:1/4 D5:1/4 C5:1/4 E5:1/4 G4:1/4 C5:1/4 D5:1/2 G4:1/2 G5:1/4 E5:1/4 C5:1/4 E5:1/4 F5:1/4 D5:1/4 B4:1/4 D5:1/4 E5:1/4 C5:1/4 A4:1/4 C5:1/4 B4:1/4 D5:1/4 C5:1/2 A4:1/4 C5:1/4 E5:1/4 C5:1/4 G#4:1/4 B4:1/4 E5:1/4 B4:1/4 A4:1/4 C5:1/4 E5:1/4 C5:1/4 D5:1/4 F5:1/4 E5:1/2 E5:1/4 G5:1/4 C5:1/4 E5:1/4 D5:1/4 F5:1/4 B4:1/4 D5:1/4 C5:1/4 E5:1/4 D5:1/4 B4:1/4 C5:1 G4:1/4 B4:1/4 D5:1/4 B4:1/4 A4:1/4 C5:1/4 E5:1/4 C5:1/4 B4:1/4 D5:1/4 G5:1/4 D5:1/4 C5:1/4 A4:1/4 D5:1/2 G4:1/4 B4:1/4 D5:1/4 B4:1/4 A4:1/4 C5:1/4 F#5:1/4 C5:1/4 B4:1/4 G4:1/4 D5:1/4 B4:1/4 A4:1/4 D5:1/4 G4:1/2 D5:1/4 B4:1/4 G4:1/4 B4:1/4 E5:1/4 C5:1/4 A4:1/4 C5:1/4 D5:1/4 B4:1/4 G4:1/4 B4:1/4 A4:1/4 F#4:1/4 D4:1/2 G4:1/4 B4:1/4 D5:1/4 G5:1/4 F#5:1/4 E5:1/4 D5:1/4 C5:1/4 B4:1/4 D5:1/4 A4:1/4 F#4:1/4 G4:1 E5:1/4 G5:1/4 C5:1/4 E5:1/4 D5:1/4 F5:1/4 B4:1/4 D5:1/4 C5:1/4 E5:1/4 G4:1/4 C5:1/4 D5:1/2 G4:1/2 G5:1/4 E5:1/4 C5:1/4 E5:1/4 F5:1/4 D5:1/4 B4:1/4 D5:1/4 E5:1/4 C5:1/4 A4:1/4 C5:1/4 B4:1/4 D5:1/4 C5:1/2 A4:1/4 C5:1/4 E5:1/4 C5:1/4 G#4:1/4 B4:1/4 E5:1/4 B4:1/4 A4:1/4 C5:1/4 E5:1/4 C5:1/4 D5:1/4 F5:1/4 E5:1/2 E5:1/4 G5:1/4 C5:1/4 E5:1/4 D5:1/4 F5:1/4 B4:1/4 D5:1/4 C5:1/4 E5:1/4 D5:1/4 B4:1/4 C5:1",
-      "left": "C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 F3:1/8 C4:1/8 A3:1/8 C4:1/8 F3:1/8 C4:1/8 A3:1/8 C4:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 E3:1/8 B3:1/8 G#3:1/8 B3:1/8 E3:1/8 B3:1/8 G#3:1/8 B3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 D3:1/8 A3:1/8 F3:1/8 A3:1/8 D3:1/8 A3:1/8 F3:1/8 A3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 C3:1 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 G2:1 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 F3:1/8 C4:1/8 A3:1/8 C4:1/8 F3:1/8 C4:1/8 A3:1/8 C4:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 E3:1/8 B3:1/8 G#3:1/8 B3:1/8 E3:1/8 B3:1/8 G#3:1/8 B3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 D3:1/8 A3:1/8 F3:1/8 A3:1/8 D3:1/8 A3:1/8 F3:1/8 A3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 C3:1"
+      "left": "C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 F3:1/8 C4:1/8 A3:1/8 C4:1/8 F3:1/8 C4:1/8 A3:1/8 C4:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 E3:1/8 B3:1/8 G#3:1/8 B3:1/8 E3:1/8 B3:1/8 G#3:1/8 B3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 D3:1/8 A3:1/8 F3:1/8 A3:1/8 D3:1/8 A3:1/8 F3:1/8 A3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 C3:1 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 D3:1/8 A3:1/8 F#3:1/8 A3:1/8 G2:1 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 F3:1/8 C4:1/8 A3:1/8 C4:1/8 F3:1/8 C4:1/8 A3:1/8 C4:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 E3:1/8 B3:1/8 G#3:1/8 B3:1/8 E3:1/8 B3:1/8 G#3:1/8 B3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 A2:1/8 E3:1/8 C3:1/8 E3:1/8 D3:1/8 A3:1/8 F3:1/8 A3:1/8 D3:1/8 A3:1/8 F3:1/8 A3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 C3:1/8 G3:1/8 E3:1/8 G3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 G2:1/8 D3:1/8 B2:1/8 D3:1/8 C3:1",
+      "theory": "t41_rondo"
     },
     {
       "id": "a32_gran_sonatina",
@@ -2785,6 +2794,7 @@
       "right": "{bpm=96} {ts=2/4} C4:1/8 C4:1/8 E4:1/8 E4:1/8 G4:1/8 G4:1/8 E4:1/4 F4:1/8 F4:1/8 D4:1/8 D4:1/8 B3:1/8 B3:1/8 G3:1/4 C4:1/8 C4:1/8 E4:1/8 E4:1/8 G4:1/8 G4:1/8 E4:1/4 F4:1/8 F4:1/8 D4:1/8 D4:1/8 B3:1/8 B3:1/8 G3:1/4 C4:1/2",
       "left": null,
       "exam": true,
+      "theory": "t35_matices",
       "chords": "C C G G C C G G C"
     },
     {
@@ -10739,6 +10749,14 @@
             "right": "C4+E4+G4:1/2 A3+C4+E4:1/2",
             "left": null
           }
+        },
+        {
+          "text": "Mira el vídeo: por qué un acorde suena alegre y otro triste.",
+          "visual": {
+            "type": "video",
+            "url": "https://pianofacil-ayc.pages.dev/videos/mayor-menor.mp4",
+            "label": "Alegre y triste"
+          }
         }
       ]
     },
@@ -11152,6 +11170,416 @@
             "type": "staff",
             "right": "_:1/2 E4:1/4 D4:1/4",
             "left": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "t35_matices",
+      "title": "Suave y fuerte",
+      "pages": [
+        {
+          "text": "La partitura también dice si tocar suave o fuerte. Suave es piano (p) y fuerte es forte (f).",
+          "visual": {
+            "type": "staff",
+            "right": "{ts=2/4} C4:1/8 C4:1/8 E4:1/8 E4:1/8 G4:1/8 G4:1/8 E4:1/4",
+            "left": null
+          }
+        },
+        {
+          "text": "Crescendo es ir subiendo el volumen poco a poco. Diminuendo es ir bajándolo poco a poco.",
+          "visual": {
+            "type": "keys",
+            "from": 60,
+            "whites": 8,
+            "keys": [
+              60,
+              62,
+              64,
+              65,
+              67
+            ],
+            "names": true
+          }
+        },
+        {
+          "text": "En la Sinfonía de la sorpresa, Haydn empieza muy suave y de pronto mete un golpe fuerte. ¡Para sorprender!",
+          "visual": {
+            "type": "staff",
+            "right": "{ts=2/4} C4:1/8 C4:1/8 E4:1/8 E4:1/8 G4:1/8 G4:1/8 E4:1/4 F4:1/8 F4:1/8 D4:1/8 D4:1/8 B3:1/8 B3:1/8 G3:1/4",
+            "left": null
+          }
+        },
+        {
+          "text": "Mira el vídeo: suave, fuerte, crescendo y diminuendo con sonido.",
+          "visual": {
+            "type": "video",
+            "url": "https://pianofacil-ayc.pages.dev/videos/matices.mp4",
+            "label": "Suave y fuerte"
+          }
+        }
+      ]
+    },
+    {
+      "id": "t36_ligado_picado",
+      "title": "Pegado y picado",
+      "pages": [
+        {
+          "text": "Legato quiere decir «pegado»: las notas suenan unidas, sin cortar una antes de que empiece la siguiente.",
+          "visual": {
+            "type": "staff",
+            "right": "{ts=3/4} E4:1/4 G4:1/4 E4:1/4 D4:1/2 _:1/4",
+            "left": null
+          }
+        },
+        {
+          "text": "Staccato quiere decir «picado»: notas cortitas y separadas, como si la tecla quemara.",
+          "visual": {
+            "type": "staff",
+            "right": "C4:1/8 _:1/8 E4:1/8 _:1/8 G4:1/8 _:1/8 E4:1/8 _:1/8",
+            "left": null
+          }
+        },
+        {
+          "text": "La nana se toca pegada y tranquila, como si acunaras a un bebé: ¡que no se oigan saltitos!",
+          "visual": {
+            "type": "hand",
+            "hand": "right",
+            "marked": [
+              1,
+              2,
+              3
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "t37_frases",
+      "title": "Frases que se repiten",
+      "pages": [
+        {
+          "text": "Las canciones se construyen con frases, como las historias con oraciones. ¡Aprende una frase cada vez!",
+          "visual": {
+            "type": "staff",
+            "right": "C4:1/4 E4:1/4 G4:1/4 E4:1/4 C4:1/4 E4:1/4 G4:1/2",
+            "left": null
+          }
+        },
+        {
+          "text": "La segunda frase tiene la misma forma, pero empieza en el Fa: Fa-La-Do-La-Fa-La-Sol.",
+          "visual": {
+            "type": "staff",
+            "right": "F4:1/4 A4:1/4 C5:1/4 A4:1/4 F4:1/4 A4:1/4 G4:1/2",
+            "left": null
+          }
+        },
+        {
+          "text": "Si ves una forma que se repite, ya tienes medio trabajo hecho: solo cambia dónde empiezas.",
+          "visual": {
+            "type": "keys",
+            "from": 60,
+            "whites": 10,
+            "keys": [
+              65,
+              69,
+              72
+            ],
+            "names": true,
+            "fingers": [
+              1,
+              3,
+              5
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "t38_terceras",
+      "title": "Las terceras",
+      "pages": [
+        {
+          "text": "Una tercera son dos notas con otra en medio: Do y Mi. Se tocan a la vez con los dedos 1 y 3.",
+          "visual": {
+            "type": "keys",
+            "from": 60,
+            "whites": 8,
+            "keys": [
+              60,
+              64
+            ],
+            "names": true,
+            "fingers": [
+              1,
+              3
+            ]
+          }
+        },
+        {
+          "text": "Sube la mano una tecla y tienes otra tercera: Re y Fa, con los dedos 2 y 4.",
+          "visual": {
+            "type": "keys",
+            "from": 60,
+            "whites": 8,
+            "keys": [
+              62,
+              65
+            ],
+            "names": true,
+            "fingers": [
+              2,
+              4
+            ]
+          }
+        },
+        {
+          "text": "Y otra más: Mi y Sol, con los dedos 3 y 5. ¡La mano camina en terceras!",
+          "visual": {
+            "type": "keys",
+            "from": 60,
+            "whites": 8,
+            "keys": [
+              64,
+              67
+            ],
+            "names": true,
+            "fingers": [
+              3,
+              5
+            ]
+          }
+        },
+        {
+          "text": "En el pentagrama, las dos notas de una tercera están en dos líneas o en dos espacios seguidos.",
+          "visual": {
+            "type": "staff",
+            "right": "E4+G4:1 F4+A4:1",
+            "left": null
+          }
+        },
+        {
+          "text": "Mira el vídeo: las distancias entre notas, de segunda a octava.",
+          "visual": {
+            "type": "video",
+            "url": "https://pianofacil-ayc.pages.dev/videos/intervalos.mp4",
+            "label": "Los intervalos"
+          }
+        }
+      ]
+    },
+    {
+      "id": "t39_tres_acordes",
+      "title": "Tres acordes para todo",
+      "pages": [
+        {
+          "text": "Muchas canciones sencillas usan solo 3 acordes: Do, Fa y Sol. ¡Son los acordes mágicos!",
+          "visual": {
+            "type": "staff",
+            "right": "C4+E4+G4:1 C4+F4+A4:1 B3+D4+G4:1",
+            "left": null
+          }
+        },
+        {
+          "text": "Para mover la mano lo menos posible, el Fa y el Sol se tocan «dados la vuelta».",
+          "visual": {
+            "type": "keys",
+            "from": 59,
+            "whites": 8,
+            "keys": [
+              59,
+              62,
+              67
+            ],
+            "names": false,
+            "fingers": [
+              1,
+              2,
+              5
+            ]
+          }
+        },
+        {
+          "text": "Do suena a «casa», Fa a «paseo» y Sol a «ya casi llegamos». ¡Escucha cómo cuentan una historia!",
+          "visual": {
+            "type": "staff",
+            "right": "C4+E4+G4:1/2 C4+F4+A4:1/2 B3+D4+G4:1/2 C4+E4+G4:1/2",
+            "left": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "t40_pregunta_respuesta",
+      "title": "Preguntar y contestar",
+      "pages": [
+        {
+          "text": "En esta lección las manos conversan: la derecha pregunta y la izquierda contesta.",
+          "visual": {
+            "type": "staff",
+            "right": "E4:1/4 E4:1/4 F4:1/4 G4:1/4 G4:1/2 _:1/2 _:1 _:1",
+            "left": "_:1 _:1 G3:1/4 G3:1/4 F3:1/4 E3:1/4 E3:1/2 _:1/2"
+          }
+        },
+        {
+          "text": "La izquierda contesta con las mismas notas, pero al revés. Mientras una toca, la otra descansa.",
+          "visual": {
+            "type": "staff",
+            "right": "E4:1/4 E4:1/4 F4:1/4 G4:1/4 G4:1/2 _:1/2 _:1 _:1",
+            "left": "_:1 _:1 G3:1/4 G3:1/4 F3:1/4 E3:1/4 E3:1/2 _:1/2"
+          }
+        }
+      ]
+    },
+    {
+      "id": "t41_rondo",
+      "title": "El rondó",
+      "pages": [
+        {
+          "text": "Un rondó tiene una melodía que vuelve una y otra vez. Aquí es A-B-A: empieza, cambia y vuelve a empezar.",
+          "visual": {
+            "type": "staff",
+            "right": "E5:1/4 G5:1/4 C5:1/4 E5:1/4 D5:1/4 F5:1/4 B4:1/4 D5:1/4",
+            "left": null
+          }
+        },
+        {
+          "text": "A es la sonatina en Do. B es la sonatina en Sol, con Fa sostenido. Y al final vuelve la A.",
+          "visual": {
+            "type": "staff",
+            "right": "G4:1/4 B4:1/4 D5:1/4 B4:1/4 A4:1/4 C5:1/4 F#5:1/4 C5:1/4",
+            "left": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "t42_tarantela",
+      "title": "La tarantela",
+      "pages": [
+        {
+          "text": "La tarantela es una danza muy rápida del sur de Italia. Se cuenta en 6/8: dos golpes grandes de tres corcheas.",
+          "visual": {
+            "type": "staff",
+            "right": "{ts=6/8} A4:1/8 C5:1/8 E5:1/8 C5:1/8 A4:1/8 C5:1/8 A4:1/8 C5:1/8 E5:1/8 C5:1/8 A4:1/4",
+            "left": null
+          }
+        },
+        {
+          "text": "Está en La menor, por eso suena misteriosa y apasionada. El Sol sostenido le da ese toque especial.",
+          "visual": {
+            "type": "staff",
+            "right": "{ts=6/8} G#4:1/8 B4:1/8 E5:1/8 B4:1/8 G#4:1/8 B4:1/8",
+            "left": null
+          }
+        },
+        {
+          "text": "Empieza despacito bajando el ritmo con las flechas y, cuando te salga, ve acelerando.",
+          "visual": {
+            "type": "hand",
+            "hand": "right",
+            "marked": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "t43_cuatro_acordes",
+      "title": "Cuatro acordes que suenan a canción",
+      "pages": [
+        {
+          "text": "Muchas canciones modernas se hacen con 4 acordes que se repiten: Do, Sol, La menor y Fa.",
+          "visual": {
+            "type": "staff",
+            "right": "C4+E4+G4:1 B3+D4+G4:1 C4+E4+A4:1 C4+F4+A4:1",
+            "left": null
+          }
+        },
+        {
+          "text": "La menor es el acorde triste del grupo y los otros tres son alegres. ¡Así la música tiene de todo!",
+          "visual": {
+            "type": "keys",
+            "from": 60,
+            "whites": 8,
+            "keys": [
+              60,
+              64,
+              69
+            ],
+            "names": false,
+            "fingers": [
+              1,
+              2,
+              5
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "t44_menor_armonica",
+      "title": "La menor armónica",
+      "pages": [
+        {
+          "text": "La menor armónica es la escala de La menor con el Sol subido una tecla: Sol sostenido (Sol#).",
+          "visual": {
+            "type": "keys",
+            "from": 69,
+            "whites": 8,
+            "keys": [
+              69,
+              71,
+              72,
+              74,
+              76,
+              77,
+              80,
+              81
+            ],
+            "names": true
+          }
+        },
+        {
+          "text": "Entre Fa y Sol# hay un saltito de tres teclas. Por eso suena misteriosa, como de cuento de Oriente.",
+          "visual": {
+            "type": "staff",
+            "right": "F5:1/4 G#5:1/4 A5:1/2",
+            "left": null
+          }
+        },
+        {
+          "text": "Dedos: 1, 2, 3, el pulgar por debajo, y 1, 2, 3, 4, 5. El Sol# se toca con el 4.",
+          "visual": {
+            "type": "keys",
+            "from": 69,
+            "whites": 8,
+            "keys": [
+              69,
+              71,
+              72,
+              74,
+              76,
+              77,
+              80,
+              81
+            ],
+            "names": false,
+            "fingers": [
+              1,
+              2,
+              3,
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
           }
         }
       ]
